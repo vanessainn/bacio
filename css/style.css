@@ -44,13 +44,25 @@ body {
   background-color: var(--white);
   font-family: 'Manrope', sans-serif;
   font-weight: 400;
-  font-size: var(--step--1);
+  font-size: var(--step-1);
   color: var(--black);
   line-height: 1.3em;
+  padding: 0;
 }
 
 h1 {
   font-family: 'Allan', sans-serif;
+}
+
+h2 {
+  font-family: 'Allan', sans-serif;
+  font-size: var(--step-5);
+}
+
+@media (min-width: 765px) {
+  body {
+    font-size: var(--step--1);
+  }
 }
 
 /* ----------------------------------------------------------------------------------------*/
@@ -193,3 +205,67 @@ header {
   }
 }
 
+/* ----------------------------------------------------------------------------------------*/
+/* Home */
+
+.row>* {
+  padding: 0;
+  margin: 0;
+}
+
+.row {
+  margin: 0;
+}
+
+#info img {
+  padding: 4rem 4rem 4rem 0;
+}
+
+#info .content {
+  padding: 2rem;
+}
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+.button-dark {
+  border: 2px solid var(--black);
+  background-color: transparent;
+  padding: .5rem 2rem;
+  font-family: 'Allan', sans-serif;
+  font-size: var(--step-1);
+  color: var(--black);
+}
+
+.button-dark:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.tk-img-2 {
+  display: none;
+}
+
+#tk .content {
+  padding: 2rem;
+}
+
+@media (min-width: 756px) {
+  #info .content {
+    padding: 2rem 5rem 2rem 2rem;
+  }
+  #tk img {
+    padding: 2rem 0 2rem 3rem;
+  }
+  .tk-img-1 {
+    display: none;
+  }
+  .tk-img-2 {
+    display: block;
+  }
+  #tk .content {
+    padding: 2rem 0 2rem 5rem;
+  }
+}
