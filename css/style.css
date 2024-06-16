@@ -59,7 +59,7 @@ h2 {
   font-size: var(--step-5);
 }
 
-@media (min-width: 765px) {
+@media (min-width: 768px) {
   body {
     font-size: var(--step--1);
   }
@@ -95,7 +95,7 @@ nav svg {
 .nav-link {
   color: var(--white);
   font-family: 'Allan', sans-serif;
-  font-size: var(--step-2);
+  font-size: var(--step-4);
   padding: 1rem 0;
 }
 
@@ -142,6 +142,68 @@ nav svg {
 
 .scroll .nav-bar-color {
   color: var(--primary);
+}
+
+@media (min-width: 768px) {
+  .nav-link {
+    font-size: var(--step-2);
+  }
+}
+
+/* ----------------------------------------------------------------------------------------*/
+/* Footer */
+
+footer {
+  padding-bottom: 1rem;
+}
+
+footer img { 
+  width: 120px;
+  height: auto;
+}
+  
+footer a {
+  color: var(--primary);
+  font-family: 'Allan', sans-serif;
+  font-size: var(--step-4);
+  padding: 1rem 2rem 1rem 0;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--black);
+}
+
+.fg-primary {
+  color: var(--primary);
+}
+
+.footer-menu, .footer-socials {
+  flex-direction: column;
+}
+
+.footer-content {
+  justify-content: space-between;
+}
+
+.footer-socials i {
+  margin: 0 0 1rem 1rem;
+}
+
+@media (min-width: 768px) {
+  footer a {
+    font-size: var(--step-2);
+    padding: .6rem 3rem 0 0;
+  }
+  .footer-menu, .footer-socials {
+    flex-direction: row;
+  }
+  .footer-menu {
+    justify-content: end;
+  }
+  .footer-content {
+    justify-content: end;
+  }
 }
 
 /* ----------------------------------------------------------------------------------------*/
@@ -193,7 +255,7 @@ header {
   display: none;
 }
 
-@media (min-width: 756px) {
+@media (min-width: 768px) {
   header {
     height: 100vh;
     }
@@ -252,7 +314,7 @@ header {
   padding: 2rem;
 }
 
-@media (min-width: 756px) {
+@media (min-width: 768px) {
   #info .content {
     padding: 2rem 5rem 2rem 2rem;
   }
