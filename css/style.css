@@ -114,6 +114,10 @@ nav svg {
   color: var(--primary);
 }
 
+.nav2 .nav-link:hover {
+  color: var(--black);
+}
+
 .nav-bar-color {
   color: var(--white);
 }
@@ -154,6 +158,9 @@ nav svg {
 @media (min-width: 768px) {
   .nav-link {
     font-size: var(--step-2);
+  }
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 2rem;
   }
 }
 
@@ -200,7 +207,7 @@ footer a:hover {
 @media (min-width: 768px) {
   footer a {
     font-size: var(--step-2);
-    padding: .6rem 3rem 0 3rem;
+    padding: .6rem 2rem 0 ;
   }
   .footer-menu, .footer-socials {
     flex-direction: row;
