@@ -45,3 +45,77 @@ body {
   font-size: var(--step--1);
   line-height: 1.3em;
 }
+
+/* Navigation */
+
+nav svg {
+  width: 100px;
+  height: auto;
+}
+
+.nav1 {
+  background-color: transparent;
+  transition: all .4s ease-in-out;
+  padding: 1rem 2rem;
+}
+
+.cls-1 {
+  fill: var(--white);
+  stroke-width: 0px;
+}
+
+.nav2 .cls-1 {
+  fill: var(--primary);
+}
+
+.nav1 .nav-item {
+  margin-left: 2rem;
+}
+
+.nav-link {
+  color: var(--white);
+  font-family: 'Allan', sans-serif;
+  font-size: var(--step-2);
+  padding: 1rem 0;
+}
+
+.nav2 .nav-link {
+  color: var(--primary);
+}
+
+.nav-bar-color {
+  color: var(--white);
+}
+
+.nav2 .nav-bar-color {
+  color: var(--primary);
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: end;
+}
+
+.scroll {
+  background-color: var(--white);
+}
+
+.scroll .cls-1 {
+  fill: var(--primary);
+}
+
+.scroll li a {
+  color: var(--primary);
+}
+
+.scroll .nav-bar-color {
+  color: var(--primary);
+}
