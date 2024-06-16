@@ -1,0 +1,47 @@
+:root {
+  --primary: #779DCA;
+  --secondary: #E8AE13;
+  --black: #3C3C3B;
+  --white: #F1EDE6;
+}
+
+/* allan-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Allan';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/allan-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* manrope-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/manrope-v15-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* @link https://utopia.fyi/type/calculator?c=320,12,1.25,1000,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+:root {
+  --step--2: clamp(0.48rem, 0.3294rem + 0.7529vi, 0.8rem);
+  --step--1: clamp(0.6rem, 0.4118rem + 0.9412vi, 1rem);
+  --step-0: clamp(0.75rem, 0.5147rem + 1.1765vi, 1.25rem);
+  --step-1: clamp(0.9375rem, 0.6434rem + 1.4706vi, 1.5625rem);
+  --step-2: clamp(1.1719rem, 0.8042rem + 1.8382vi, 1.9531rem);
+  --step-3: clamp(1.4648rem, 1.0053rem + 2.2978vi, 2.4414rem);
+  --step-4: clamp(1.8311rem, 1.2566rem + 2.8722vi, 3.0518rem);
+  --step-5: clamp(2.2888rem, 1.5708rem + 3.5903vi, 3.8147rem);
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background-color: var(--white);
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: var(--step--1);
+  line-height: 1.3em;
+}
