@@ -27,13 +27,13 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="ueberuns.php">Über Uns</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="pizza.php">Pizza</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="produkte.php">Produkte</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ueberuns.php">Über Uns</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="kontakt.php">Kontakt</a>
