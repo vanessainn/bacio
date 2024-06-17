@@ -1,8 +1,8 @@
 :root {
-  --primary: #779DCA;
-  --secondary: #E8AE13;
+  --primary: #5B91C7;
+  --secondary: #00802B;
   --black: #3C3C3B;
-  --white: #F1EDE6;
+  --white: #F7F4EB;
 }
 
 /* allan-regular - latin */
@@ -171,9 +171,10 @@ nav svg {
   }
   .scroll {
   background-color: var(--white);
-}
+  }
   .nav-link {
     color: var(--white);
+    text-shadow: 2px 2px ff0000;  
   }
 }
 
@@ -365,7 +366,7 @@ header {
 /* ----------------------------------------------------------------------------------------*/
 /* Impressum & Datenschutz & Kontakt */
 
-#impressum, #dsgvo, #pizzeria {
+#impressum, #dsgvo, #pizzeria, #danke {
   margin-top: 7rem;
 }
 
@@ -375,7 +376,89 @@ a {
   font-size: var(--step-1);
 }
 
+#pizzeria a {
+  color: var(--black);
+}
 
+.input-group {
+  position: relative;
+  margin-bottom: 1rem;
+  padding-top: 1.5rem;
+}
+
+.checkbox-group {
+margin-bottom: 1rem;
+}
+
+.input-group input {
+  display: block;
+  height: 3rem;
+  background-color: transparent;
+  border: 2px solid var(--black);
+  transition: all .3s ease;
+  outline: none;
+  width: 100%;
+  color: var(--black);
+  font-size: var(--step--1);
+  font-weight: 300;
+  padding-left: .5rem;
+}
+
+.input-group label {
+  position: absolute;
+  cursor: text;
+  top: 2.5rem;
+  left: 1rem;
+  font-size: var(--step-0);
+  color: var(--black);
+  transition: all .2s ease;
+  z-index: 2;
+  font-family: 'Allan', sans-serif;
+}
+
+.input-group input:focus + label, 
+.input-group input:not(:placeholder-shown) + label {
+  font-size: var(--step--1);
+  top: 0;
+  left: .1rem;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+.input-group textarea {
+  display: block;
+  border: 2px solid var(--black);
+  width: 100%;
+  min-height: 10rem;
+  transition: all .3s ease;
+  outline: none;
+  color: var(--black);
+  font-size: var(--step-0);
+  font-weight: 300;
+  background-color: transparent;
+}
+
+.input-group textarea:focus + label,
+.input-group textarea:not(:placeholder-shown) + label {
+  font-size: var(--step--1);
+  top: 0;
+  left: .1rem;
+}
+
+textarea {
+  box-sizing: border-box;
+}
+
+.check {
+  border-radius: none;
+  border: 2px solid var(--black);
+}
+
+.valid-feedback {
+  color: var(--primary);
+}
 
 @media (min-width: 768px) {
   a {

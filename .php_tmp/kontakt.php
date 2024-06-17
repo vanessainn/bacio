@@ -11,8 +11,8 @@
 </head>
 <body>
 
-  <header class="d-flex flex-column justify-content-center">
-    <nav class="nav1 navbar navbar-expand-md fixed-top">
+  <div class="d-flex flex-column justify-content-center mb-5">
+    <nav class="nav2 navbar navbar-expand-md fixed-top">
       <div class="container-fluid ps-4 nav-container">
         <a class="navbar-brand" href="index.html">
           <svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750.3 240.6">
@@ -46,63 +46,68 @@
         </div>
       </div>
     </nav>
-
-    <div class="header-content">
-      <h1 class="headline-home">Ein Kuss aus dem Ofen.</h1>
-      <a href=""><button class="button-light">jetzt bestellen</button></a>
-    </div>
-    <div class="header-icon">
-      <i class="fa-solid fa-chevron-down fg-color-white fs-1"></i>
-    </div>
-
-  </header>
+  </div>
 
   <main>
-    <section id="info">
-      <div class="container-fluid">
-        <div class="row d-flex flex-wrap-reverse">
-          <div class="col-md-4">
-            <img src="images/bacio-pisa.png" alt="Zeichnung vom schiefen Turm von Pisa" title="Zeichnung vom schiefen Turm von Pisa" class="img-fluid">
-          </div>
-          <div class="col-md-8 d-flex flex-column justify-content-center pt-4 content">
-            <h2>Dafür steht unsere Marke</h2>
-            <p>Bacio steht für die beste Rezeptur des Teiges, die beste Qualität der Zutaten und die beste Art der Zubereitung. Nicht um sonst zieht die Pizzeria nicht nur Touristen an, sondern ist die Nummer eins der Stadt. Bacio möchte ein Erlebnis mit der Welt teilen. Die eigenen Erkenntnisse, das Wissen und die Rezeptur sind Ergebnis von monatelangen Forschungsreisen, von Erlebnissen aus ganz Italien. Armando Ammirati und Andreas Schmid haben ihre Rezepte aus den verschiedensten Orten aus Italien mitgebracht und möchten die Erlebnisse der Orte gerne durch ihre Pizza mit allen teilen. Mit dem neu entwickelten, smarten System der Auslieferung mit Karton und Trockeneis, können die Geschäftsführer nun die Erlebnisse noch einfacher zu den Menschen bringen, nun sogar auch direkt zu ihnen nach Hause. Jede Pizza ist inspiriert von einem der Orte, an denen Armando und Andreas im Laufe ihrer Forschungsreise waren. Sie lernten die besten regionalen Produkte kennen und lassen alle Erlebnisse in die eigenen Produkte einfließen.</p>
-            <a href=""><button class="button-dark">erfahre mehr über uns</button></a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="video">
+    <section id="pizzeria">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <video class="w-100" controls autoplay muted loop>
-              <source src="medien/bacio-werbevideo.mp4" type="video/mp4">
-            </video>
+            <h1>Besuch uns doch in unserer Pizzeria !</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2707.659761074392!2d11.39026627649128!3d47.262356071160376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479d6be47c2d74b5%3A0x285c061b1b992de9!2sMaximilianstra%C3%9Fe%2011%2C%206020%20Innsbruck!5e0!3m2!1sde!2sat!4v1718608056034!5m2!1sde!2sat" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+          </div>
+        </div>
+        <div class="row mt-3">
+        <div class="col-md-6">
+            <p>Pizza Bacio GmbH<br>Armando Ammirati & Andreas Schmid<br>Maximilianstraße 11<br>6020 Innsbruck<br>Österreich</p><br>
+          </div>
+          <div class="col-md-6">
+            <a href="tel:+496542368512">T: +49 654 236 8512</a><br>
+            <a href="mailto:info@pizzabacio.at">M: info@pizzabacio.at</a>
           </div>
         </div>
       </div>
     </section>
-    <section id="tk">
-      <div class="container-fluid p-0">
-        <div class="row pt-4">
-          <div class="col-md-6 d-flex flex-column justify-content-center content">
-            <h2>Ein Kuss aus dem Ofen</h2>
-            <p>Willkommen in der Welt von Pizza BACIO, der ersten Tiefkühlpizza, die deine Geschmacksknospen wie eine frische Pizza aus dem Lieblingsrestaurant verwöhnt. Warum? Weil wir bei Pizza BACIO nur die hochwertigsten Zutaten verwenden und jede Pizza bei über 400°C im Steinofen vorbacken. Durch den Einsatz ausgewählter Holzsorten, die das Aroma verfeinern, schaffen wir ein Geschmackserlebnis, das du so bei keiner anderen Tiefkühlpizza findest. Wir bei Pizza BACIO achten darauf, dass unsere Zutaten nicht nur geschmacklich überzeugen, sondern auch nachhaltig und umweltfreundlich sind. Unsere Liebe zur Pizza geht über den Tellerrand hinaus – wir möchten, dass du nicht nur eine großartige Pizza genießt, sondern auch ein gutes Gefühl dabei hast.</p>
-            <img src="images/bacio-pizza-auf-backblech.jpg" alt="Eine Bacio Tiefkühlpizza auf einem Backblech zuhause" title="Eine Bacio Tiefkühlpizza auf einem Backblech zuhause" class="img-fluid tk-img-1 mb-3">
-            <p>Für die problemlose Auslieferung haben wir ein smartes System mit Karton und Trockeneis entwickelt. Dieses ausgeklügelte System gewährleistet, dass deine Pizza BACIO innerhalb von 24 Stunden bei dir ankommt und dabei die Kühlkette nicht unterbrochen wird. So bleibt deine Pizza immer frisch und bereit für den Genuss.</p><br>
-            <p>Noch nie hast du eine Tiefkühlpizza so heiß geliebt. Erlebe den Unterschied bei jeder Sorte, die wir bieten.<br>Probiere Pizza BACIO und entdecke die neue Art, Tiefkühlpizza zu genießen.<br>Deine Geschmacksnerven werden es dir danken!</p>
-            <a href=""><button class="button-dark">alle ansehen</button></a>
+    <section id="kontaktformualr" class="mt-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Oder hast du eine Frage?</h2>
           </div>
-          <div class="col-md-6">
-            <img src="images/bacio-pizza-auf-backblech.jpg" alt="Eine Bacio Tiefkühlpizza auf einem Backblech zuhause" title="Eine Bacio Tiefkühlpizza auf einem Backblech zuhause" class="img-fluid tk-img-2">
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <form action="mail.php" method="post" class="was-validated">
+              <div class="input-group">
+                <input type="text" id="name" name="name" placeholder="" required="">
+                <label for="name">Vor- und Nachname</label>
+                <div class="valid-feedback">Gültige Eingabe.</div>
+                <div class="invalid-feedback">Bitte gib deinen Name ein.</div>
+              </div>
+              <div class="input-group">
+                <input type="email" id="email" name="email" placeholder="" required="">
+                <label for="email">E-Mail Adresse</label>
+                <div class="valid-feedback">Gültige Eingabe.</div>
+                <div class="invalid-feedback">Ungültige Eingabe</div>
+              </div>
+              <div class="input-group">
+                <textarea name="nachricht" id="nachricht" placeholder="" required=""></textarea>
+                <label for="nachricht">Nachricht</label>
+                <div class="invalid-feedback">Bitte gib deine Nachricht ein.</div>
+              </div>
+              <div class="checkbox-group">
+                <label for="datenschutz"><input type="checkbox" name="datenschutz" id="datenschutz" required=""> Ich akzeptiere die Datenschutzerklärung und stimme der Verarbeitung meiner Daten zu.</label>                
+                <div class="invalid-feedback">Dem Datenschutz muss zugestimmt werden.</div>
+              </div>
+              <button type="submit" name="submit" class="button-dark">absenden</button>
+            </form>
           </div>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="px-4">
+  <footer class="px-4 mt-5">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-3">
@@ -120,7 +125,7 @@
           </div>
         </div>
         <div class="col-md-12 d-flex justify-content-center">
-          <p>&copy; 2024 Pizza Bacio GmbH</p>
+          <p class="fg-primary">&copy; 2024 Pizza Bacio GmbH</p>
           <!-- mit php Datum tauschen -->
         </div>
       </div>
