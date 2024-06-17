@@ -76,13 +76,13 @@ nav svg {
 }
 
 .nav1 {
-  background-color: transparent;
+  background-color: var(--white);
   transition: all .4s ease-in-out;
   padding: 1rem 2rem;
 }
 
 .cls-1 {
-  fill: var(--white);
+  fill: var(--primary);
   stroke-width: 0px;
 }
 
@@ -100,7 +100,7 @@ nav svg {
 }
 
 .nav-link {
-  color: var(--white);
+  color: var(--primary);
   font-family: 'Allan', sans-serif;
   font-size: var(--step-4);
   padding: 1rem 0;
@@ -119,7 +119,7 @@ nav svg {
 }
 
 .nav-bar-color {
-  color: var(--white);
+  color: var(--primary);
 }
 
 .nav2 .nav-bar-color {
@@ -139,9 +139,7 @@ nav svg {
   justify-content: end;
 }
 
-.scroll {
-  background-color: var(--white);
-}
+
 
 .scroll .cls-1 {
   fill: var(--primary);
@@ -161,6 +159,21 @@ nav svg {
   }
   .navbar-expand-md .navbar-nav .nav-link {
     padding-right: 2rem;
+  }
+  .cls-1 {
+    fill: var(--white);
+  }
+  .nav-bar-color {
+    color: var(--white);
+  }
+  .nav1 {
+    background-color: transparent;
+  }
+  .scroll {
+  background-color: var(--white);
+}
+  .nav-link {
+    color: var(--white);
   }
 }
 
@@ -203,6 +216,9 @@ footer a:hover {
 .footer-socials i {
   margin: 0 0 1rem 1rem;
 }
+.footer-socials i:hover {
+  color: var(--black);
+}
 
 @media (min-width: 768px) {
   footer a {
@@ -226,7 +242,7 @@ footer a:hover {
 header {
   display: flex;
   height: 50vh;
-  background-image: url(/images/bacio-header-image.jpg);
+  background-image: url(../images/bacio-header-image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -347,9 +363,9 @@ header {
 }
 
 /* ----------------------------------------------------------------------------------------*/
-/* Impressum & Datenschutz */
+/* Impressum & Datenschutz & Kontakt */
 
-#impressum, #dsgvo {
+#impressum, #dsgvo, #pizzeria {
   margin-top: 7rem;
 }
 
@@ -358,6 +374,8 @@ a {
   color: var(--secondary);
   font-size: var(--step-1);
 }
+
+
 
 @media (min-width: 768px) {
   a {
