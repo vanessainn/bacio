@@ -1,26 +1,4 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <title>Danke für deine Nachricht | Bacio</title>
-  <?php include 'head.php'; ?>
-</head>
-<body>
-
-  <?php include 'nav.php'; ?>
-
-  <section id="danke">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h1>Danke für deine Nachricht !</h1>
-          <p>Du erhälst in kürze eine Mailbestätigung.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <footer class="px-4 mt-5 fixed-bottom">
+<footer class="px-4">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-3">
@@ -43,6 +21,3 @@
       </div>
     </div>
   </footer>
-
-</body>
-</html>

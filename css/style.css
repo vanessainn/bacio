@@ -372,7 +372,7 @@ header {
 
 a {
   font-family: 'Allan', sans-serif;
-  color: var(--secondary);
+  color: var(--black);
   font-size: var(--step-1);
 }
 

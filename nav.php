@@ -1,20 +1,7 @@
-<!DOCTYPE html>
-<html lang="de">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <title>Bacio | Ein Kuss aus dem Ofen.</title>
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="fonts/fontawesome-6.5.2/css/all.css">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-  <div class="d-flex flex-column justify-content-center mb-5">
+<div class="d-flex flex-column justify-content-center mb-5">
     <nav class="nav2 navbar navbar-expand-md fixed-top">
       <div class="container-fluid ps-4 nav-container">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="index.php">
           <svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750.3 240.6">
             <defs>
             </defs>
@@ -31,13 +18,13 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">Über Uns</a>
+              <a class="nav-link" href="ueberuns.php">Über Uns</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pizza</a>
+              <a class="nav-link" href="pizza.php">Pizza</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Produkte</a>
+              <a class="nav-link" href="produkte.php">Produkte</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="kontakt.php">Kontakt</a>
@@ -47,58 +34,3 @@
       </div>
     </nav>
   </div>
-
-  <main>
-    <section id="impressum">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h1>Impressum</h1>
-            <p>Informationspflicht laut §5 E-Commerce Gesetz, §14 Unternehmensgesetzbuch, §63 Gewerbeordnung und Offenlegungspflicht laut §25 Mediengesetz.</p><br>
-            <p>Pizza Bacio GmbH<br>Armando Ammirati & Andreas Schmid<br>Maximilianstraße 11<br>6020 Innsbruck<br>Österreich</p><br>
-            <p>UID-Nummer: ATU8737472<br><a href="tel:+496542368512">T: +49 654 236 8512</a><br><a href="mailto:info@pizzabacio.at">M: info@pizzabacio.at</a></p><br>
-            <p>Aufsichtsbehörde/Gewerbebehörde: Bezirkshauptmannschaft Innsbruck</p>
-            <h2 class="mt-5">Urheberrechtshinweis</h2>
-            <p>Alle Inhalte dieser Webseite (Bilder, Fotos, Texte, Videos) unterliegen dem Urheberrecht. Falls notwendig, werden wir die unerlaubte Nutzung von Teilen der Inhalte unserer Seite rechtlich verfolgen. Sollten Sie auf dieser Webseite Inhalte finden, die das Urheberrecht verletzen, bitten wir Sie uns zu kontaktieren.<br><a href="mailto:info@pizzabacio.at">M: info@pizzabacio.at</a></p>
-            <h2 class="mt-5">Bildnachweis</h2>
-            <p>Die Bilder, Fotos und Grafiken auf dieser Webseite sind urheberrechtlich geschützt.
-              Die Bilderrechte liegen bei den folgenden Fotografen und Unternehmen:<br>Pizza Bacio GmbH<br><a href="www.unsplash.com">www.unsplash.com</a>
-              </p>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-
-
-  <footer class="px-4 mt-5">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3">
-          <a href="index.html"><img src="images/bacio-logo.png" alt="Baio Logo" title="Bacio Logo"></a>
-        </div>
-        <div class="col-md-9 d-flex footer-content">
-          <div class="footer-menu d-flex">
-            <a href="impressum.html">Impressum</a>
-            <a href="datenschutz.html">Datenschutz</a>
-            <a href="kontakt.php">Kontakt</a>
-          </div>
-          <div class="footer-socials d-flex">
-            <a href="https://www.instagram.com/pizza.bacio/"><i class="fa-brands fa-instagram fs-1 fg-primary"></i></a>
-            <a href="https://www.facebook.com/bizza.bacio"><i class="fa-brands fa-facebook fs-1 fg-primary"></i></a>
-          </div>
-        </div>
-        <div class="col-md-12 d-flex justify-content-center">
-          <p class="fg-primary">&copy; 2024 Pizza Bacio GmbH</p>
-          <!-- mit php Datum tauschen -->
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
-  
-</body>
-</html>
