@@ -61,10 +61,41 @@
           <div class="col-md-4">
             <img src="images/bacio-pisa.png" alt="Zeichnung vom schiefen Turm von Pisa" title="Zeichnung vom schiefen Turm von Pisa" class="img-fluid">
           </div>
-          <div class="col-md-8 d-flex flex-column justify-content-center pt-4 content">
-            <h2>Dafür steht unsere Marke</h2>
-            <p>Bacio steht für die beste Rezeptur des Teiges, die beste Qualität der Zutaten und die beste Art der Zubereitung. Nicht um sonst zieht die Pizzeria nicht nur Touristen an, sondern ist die Nummer eins der Stadt. Bacio möchte ein Erlebnis mit der Welt teilen. Die eigenen Erkenntnisse, das Wissen und die Rezeptur sind Ergebnis von monatelangen Forschungsreisen, von Erlebnissen aus ganz Italien. Armando Ammirati und Andreas Schmid haben ihre Rezepte aus den verschiedensten Orten aus Italien mitgebracht und möchten die Erlebnisse der Orte gerne durch ihre Pizza mit allen teilen. Mit dem neu entwickelten, smarten System der Auslieferung mit Karton und Trockeneis, können die Geschäftsführer nun die Erlebnisse noch einfacher zu den Menschen bringen, nun sogar auch direkt zu ihnen nach Hause. Jede Pizza ist inspiriert von einem der Orte, an denen Armando und Andreas im Laufe ihrer Forschungsreise waren. Sie lernten die besten regionalen Produkte kennen und lassen alle Erlebnisse in die eigenen Produkte einfließen.</p>
-            <a href=""><button class="button-dark">erfahre mehr über uns</button></a>
+          <div class="col-md-8 d-flex flex-column justify-content-center pt-4 content my-5">
+            <div class="col-md-12">
+              <h2 class="text-center">Dafür steht unsere Marke</h2>
+            </div>
+            <div class="brand-info col-md-11">
+              <div class="col-md-6 number-box">
+                <div class="d-flex align-items-center">
+                  <p class="number">1</p>
+                </div>
+                <div>
+                  <h3>beste Rezeptur</h3>
+                  <p>Bacio steht für die beste Rezeptur des Teiges, die beste Qualität der Zutaten und die beste Art der Zubereitung.</p>
+                </div>
+              </div>
+              <div class="col-md-6 number-box">
+                <div class="d-flex align-items-center">
+                  <p class="number">2</p>
+                </div>
+                <div>
+                  <h3>beste Tiefkühlpizza</h3>
+                  <p>Pizza BACIO ist die erste Tiefkühlpizza, die nicht schmeckt wie eine Tiefkühlpizza. Noch nie hast du eine Tiefkühlpizza so heiß geliebt. Ganz egal, welche Sorte du gerade isst: Du wirst sie lieben.</p>
+                </div>
+              </div>
+              <div class="col-md-6 number-box">
+                <div class="d-flex align-items-center">
+                  <p class="number">3</p>
+                </div>
+                <div>
+                  <h3>einfachste Zubereitung</h3>
+                  <p>In den drei einfachen Schritten: Antauen, Vorheizen und Backen, hast mdu die beste Pizza, die genauso lecker, so knusprig, so authentisch schmeckt wie frisch vom Italiener bei dir zu Hause</p>
+                </div>
+              </div>
+            </div>
+          
+            <a href=""><button class="button-dark">erfahre mehr über uns <i class="fa-solid fa-angle-right"></i></button></a>
           </div>
         </div>
       </div>
@@ -80,19 +111,18 @@
         </div>
       </div>
     </section>
-    <section id="tk">
+    <section id="tk" class="mt-5">
       <div class="container-fluid p-0">
         <div class="row pt-4">
-          <div class="col-md-6 d-flex flex-column justify-content-center content">
-            <h2>Ein Kuss aus dem Ofen</h2>
-            <p>Willkommen in der Welt von Pizza BACIO, der ersten Tiefkühlpizza, die deine Geschmacksknospen wie eine frische Pizza aus dem Lieblingsrestaurant verwöhnt. Warum? Weil wir bei Pizza BACIO nur die hochwertigsten Zutaten verwenden und jede Pizza bei über 400°C im Steinofen vorbacken. Durch den Einsatz ausgewählter Holzsorten, die das Aroma verfeinern, schaffen wir ein Geschmackserlebnis, das du so bei keiner anderen Tiefkühlpizza findest. Wir bei Pizza BACIO achten darauf, dass unsere Zutaten nicht nur geschmacklich überzeugen, sondern auch nachhaltig und umweltfreundlich sind. Unsere Liebe zur Pizza geht über den Tellerrand hinaus – wir möchten, dass du nicht nur eine großartige Pizza genießt, sondern auch ein gutes Gefühl dabei hast.</p>
-            <img src="images/bacio-pizza-auf-backblech.jpg" alt="Eine Bacio Tiefkühlpizza auf einem Backblech zuhause" title="Eine Bacio Tiefkühlpizza auf einem Backblech zuhause" class="img-fluid tk-img-1 mb-3">
-            <p>Für die problemlose Auslieferung haben wir ein smartes System mit Karton und Trockeneis entwickelt. Dieses ausgeklügelte System gewährleistet, dass deine Pizza BACIO innerhalb von 24 Stunden bei dir ankommt und dabei die Kühlkette nicht unterbrochen wird. So bleibt deine Pizza immer frisch und bereit für den Genuss.</p><br>
-            <p>Noch nie hast du eine Tiefkühlpizza so heiß geliebt. Erlebe den Unterschied bei jeder Sorte, die wir bieten.<br>Probiere Pizza BACIO und entdecke die neue Art, Tiefkühlpizza zu genießen.<br>Deine Geschmacksnerven werden es dir danken!</p>
-            <a href=""><button class="button-dark">alle ansehen</button></a>
+          <div class="col-md-7 d-flex flex-column justify-content-center text-center">
+            <h2>Deine Lieblingspizza gratis !</h2>
+            <p>Für einen kompletten Sammelpass erhälst du deine<br>Lieblingspizza kostenlos im Restaurant bzw. online mitgeliefert.</p>
+            <h3>werde auch du Teil der FAMIGLIA BACIO</h3>
+            <p>Und ganz bald ist unser Sammelpass auch digital erhältlich!</p>
+            <a href="pizza.php"><button class="button-dark mt-3">die Produkte ansehen <i class="fa-solid fa-angle-right"></i></button></a>
           </div>
-          <div class="col-md-6">
-            <img src="images/bacio-pizza-auf-backblech.jpg" alt="Eine Bacio Tiefkühlpizza auf einem Backblech zuhause" title="Eine Bacio Tiefkühlpizza auf einem Backblech zuhause" class="img-fluid tk-img-2">
+          <div class="col-md-5">
+            <img src="images/bacio-sammelpass.jpg" alt="" class="img-fluid">
           </div>
         </div>
       </div>

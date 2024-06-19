@@ -1,7 +1,7 @@
 :root {
   --primary: #5B91C7;
   --secondary: #E8AE13;
-  --black: #3C3C3B;
+  --black: #282828;
   --white: #ffffff;
 }
 
@@ -59,6 +59,12 @@ h1 {
 h2 {
   font-family: 'Allan', sans-serif;
   font-size: var(--step-4);
+  color: var(--primary);
+}
+
+h3 {
+  font-family: 'Allan', sans-serif;
+  font-size: var(--step-3);
 }
 
 @media (min-width: 768px) {
@@ -189,27 +195,29 @@ nav svg {
 
 footer {
   padding-bottom: 1rem;
+  background-color: var(--black);
 }
 
-footer img { 
+footer svg { 
   width: 120px;
   height: auto;
+  margin-left: 2rem;
 }
   
 footer a {
-  color: var(--primary);
+  color: var(--white);
   font-family: 'Allan', sans-serif;
   font-size: var(--step-4);
-  padding: 1rem 2rem 1rem 0;
+  padding: 0 2rem 0 0;
   text-decoration: none;
 }
 
 footer a:hover {
-  color: var(--black);
+  color: var(--primary);
 }
 
-.fg-primary {
-  color: var(--primary);
+.fg-white {
+  color: var(--white);
 }
 
 .footer-menu, .footer-socials {
@@ -221,16 +229,15 @@ footer a:hover {
 }
 
 .footer-socials i {
-  margin: 0 0 1rem 1rem;
+  margin: 0 0 0 .5rem;
 }
 .footer-socials i:hover {
-  color: var(--black);
+  color: var(--primary);
 }
 
 @media (min-width: 768px) {
   footer a {
     font-size: var(--step-2);
-    padding: .6rem 2rem 0 ;
   }
   .footer-menu, .footer-socials {
     flex-direction: row;
@@ -358,18 +365,29 @@ header {
   margin: 0;
 }
 
+.number {
+  font-size: var(--step-7);
+  color: var(--primary);
+  padding-right: .3rem;
+}
+
+.number-box {
+  display: flex;
+  margin: 1rem 0;
+}
+
 .button-dark {
-  border: 2px solid var(--black);
+  border: none;
+  border-bottom: 2px solid var(--black);
   background-color: transparent;
-  padding: .5rem 2rem;
   font-family: 'Allan', sans-serif;
-  font-size: var(--step-1);
+  font-size: var(--step-2);
   color: var(--black);
 }
 
 .button-dark:hover {
-  background-color: var(--black);
-  color: var(--white);
+  color: var(--secondary);
+  border-color: var(--secondary);
 }
 
 .tk-img-2 {
@@ -384,9 +402,21 @@ header {
   #info .content {
     padding: 2rem 5rem 2rem 2rem;
   }
-  #tk img {
-    padding: 2rem 0 2rem 3rem;
+
+  .brand-info {
+    position: relative;
   }
+
+  .number-box:nth-child(2) {
+    position: absolute;
+    top: 4rem;
+    left: 28rem;
+  }
+
+  .number-box:nth-child(3) {
+    margin: 3rem 0 1rem 3em;
+  }
+
   .tk-img-1 {
     display: none;
   }
