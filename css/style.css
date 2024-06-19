@@ -1,8 +1,8 @@
 :root {
   --primary: #5B91C7;
-  --secondary: #00802B;
+  --secondary: #E8AE13;
   --black: #3C3C3B;
-  --white: #F7F4EB;
+  --white: #ffffff;
 }
 
 /* allan-regular - latin */
@@ -78,7 +78,9 @@ nav svg {
 .nav1 {
   background-color: var(--white);
   transition: all .4s ease-in-out;
-  padding: 1rem 2rem;
+  padding: 1rem 2rem;  
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
 }
 
 .cls-1 {
@@ -89,6 +91,7 @@ nav svg {
 .nav2 {
   background-color: var(--white);
   padding: 1rem 2rem;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1);
 }
 
 .nav2 .cls-1 {
@@ -139,8 +142,6 @@ nav svg {
   justify-content: end;
 }
 
-
-
 .scroll .cls-1 {
   fill: var(--primary);
 }
@@ -172,6 +173,11 @@ nav svg {
   .scroll {
   background-color: var(--white);
   }
+
+  .no-shadow {
+    box-shadow: none;
+  }
+
   .nav-link {
     color: var(--white);
     text-shadow: 2px 2px ff0000;  
@@ -242,10 +248,30 @@ footer a:hover {
 
 header {
   display: flex;
-  height: 50vh;
-  background-image: url(../images/bacio-header-image.jpg);
+  height: 60vh;
+  max-width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  animation: backgroundChange 10s steps(1) infinite;
+}
+
+@keyframes backgroundChange {
+  0% {
+    background-image: url(../images/bacio-header-image1.jpg);
+  }
+  20% {
+    background-image: url(../images/bacio-header-image2.jpg);
+  }
+  40% {
+    background-image: url(../images/bacio-header-image3.jpg);
+  }
+  60% {
+    background-image: url(../images/bacio-header-image4.jpg);
+  }
+  80% {
+    background-image: url(../images/bacio-header-image5.jpg);
+  }
 }
 
 .header-content {
@@ -256,7 +282,7 @@ header {
 .header-content a {
   position: absolute;
   left: 50%;
-  transform: translateX(-55%);
+  transform: translateX(-60%);
 }
 
 .headline-home {
@@ -265,17 +291,25 @@ header {
 }
 
 .button-light {
-  border: 2px solid var(--white);
+  border: none;
+  border-bottom: 3px solid var(--white);
   background-color: transparent;
-  padding: .5rem 2rem;
+  padding: .2rem 0;
   font-family: 'Allan', sans-serif;
-  font-size: var(--step-1);
+  font-size: var(--step-2);
   color: var(--white);
 }
 
 .button-light:hover {
-  background-color: var(--white);
-  color: var(--primary);
+  color: var(--black);
+  border-color: var(--black);
+}
+
+.more-light {
+  font-family: 'Allan', sans-serif;
+  font-size: var(--step-1);
+  color: var(--white);
+  margin-bottom: .2rem;
 }
 
 .fg-color-white {
@@ -293,7 +327,8 @@ header {
   .header-icon {
     color: var(--white);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 1rem;
   }
 }

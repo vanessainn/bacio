@@ -6,9 +6,9 @@
   <?php include 'head.php'; ?>
 </head>
 <body>
-
+  
   <header class="d-flex flex-column justify-content-center">
-    <nav class="nav1 navbar navbar-expand-md fixed-top">
+    <nav class="nav1 no-shadow navbar navbar-expand-md fixed-top">
       <div class="container-fluid ps-4 nav-container">
         <a class="navbar-brand" href="index.php">
           <svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750.3 240.6">
@@ -45,10 +45,11 @@
 
     <div class="header-content">
       <h1 class="headline-home">Ein Kuss aus dem Ofen.</h1>
-      <a href=""><button class="button-light">jetzt bestellen</button></a>
+      <a href=""><button class="button-light">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button></a>
     </div>
-    <div class="header-icon">
-      <i class="fa-solid fa-chevron-down fg-color-white fs-1"></i>
+    <div class="header-icon bounce-top">
+      <p class="more-light">scopri di più</p>
+      <i class="fa-solid fa-angle-down fg-color-white fs-2"></i>
     </div>
 
   </header>
