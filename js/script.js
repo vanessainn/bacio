@@ -1,5 +1,7 @@
 'use strict';
 
+AOS.init();
+
 // Navigation
 
 var myNav = document.querySelector('.nav1');

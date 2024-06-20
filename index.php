@@ -62,11 +62,11 @@
             <img src="images/bacio-pisa.png" alt="Zeichnung vom schiefen Turm von Pisa" title="Zeichnung vom schiefen Turm von Pisa" class="img-fluid">
           </div>
           <div class="col-md-8 d-flex flex-column justify-content-center pt-4 content my-5">
-            <div class="col-md-12">
+            <div class="col-md-12" data-aos="fade-up" data-aos-duration="1000">
               <h2 class="text-center">Dafür steht unsere Marke</h2>
             </div>
             <div class="brand-info col-md-11">
-              <div class="col-md-6 number-box">
+              <div class="col-md-6 number-box" data-aos="fade-up" data-aos-duration="1000">
                 <div class="d-flex align-items-center">
                   <p class="number">1</p>
                 </div>
@@ -75,7 +75,7 @@
                   <p>Bacio steht für die beste Rezeptur des Teiges, die beste Qualität der Zutaten und die beste Art der Zubereitung.</p>
                 </div>
               </div>
-              <div class="col-md-6 number-box">
+              <div class="col-md-6 number-box" data-aos="fade-up" data-aos-duration="1000">
                 <div class="d-flex align-items-center">
                   <p class="number">2</p>
                 </div>
@@ -84,7 +84,7 @@
                   <p>Pizza BACIO ist die erste Tiefkühlpizza, die nicht schmeckt wie eine Tiefkühlpizza. Noch nie hast du eine Tiefkühlpizza so heiß geliebt. Ganz egal, welche Sorte du gerade isst: Du wirst sie lieben.</p>
                 </div>
               </div>
-              <div class="col-md-6 number-box">
+              <div class="col-md-6 number-box" data-aos="fade-up" data-aos-duration="1000">
                 <div class="d-flex align-items-center">
                   <p class="number">3</p>
                 </div>
@@ -95,7 +95,7 @@
               </div>
             </div>
           
-            <a href=""><button class="button-dark">erfahre mehr über uns <i class="fa-solid fa-angle-right"></i></button></a>
+            <a data-aos="fade-up" data-aos-duration="1000" href=""><button class="button-dark">erfahre mehr über uns <i class="fa-solid fa-angle-right"></i></button></a>
           </div>
         </div>
       </div>
@@ -111,7 +111,7 @@
         </div>
       </div>
     </section>
-    <section id="tk" class="mt-5">
+    <section id="tk" class="mt-5" data-aos="fade-right" data-aos-duration="1000">
       <div class="container-fluid p-0">
         <div class="row pt-4">
           <div class="col-md-7 d-flex flex-column justify-content-center text-center">
