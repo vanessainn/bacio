@@ -64,7 +64,7 @@ h2 {
 
 h3 {
   font-family: 'Allan', sans-serif;
-  font-size: var(--step-3);
+  font-size: var(--step-2);
 }
 
 @media (min-width: 768px) {
@@ -202,6 +202,7 @@ footer svg {
   width: 120px;
   height: auto;
   margin-left: 2rem;
+  margin-bottom: 1rem;
 }
   
 footer a {
@@ -226,6 +227,15 @@ footer a:hover {
 
 .footer-content {
   justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.footer-menu {
+  padding-left: 2rem;
+}
+
+.footer-content a {
+  margin-bottom: 1rem;
 }
 
 .footer-socials i {
@@ -247,6 +257,10 @@ footer a:hover {
   }
   .footer-content {
     justify-content: end;
+  }
+  .story {
+    column-count: 2;
+    column-gap: 2rem;
   }
 }
 
@@ -390,6 +404,10 @@ header {
   border-color: var(--secondary);
 }
 
+.button-dark:focus-visible {
+  outline: none;
+}
+
 .tk-img-2 {
   display: none;
 }
@@ -528,5 +546,158 @@ textarea {
 @media (min-width: 768px) {
   a {
     font-size: var(--step-0);
+  }
+}
+
+/* ----------------------------------------------------------------------------------------*/
+/* Pizza & Produkte */
+
+#pizza, #produkte {
+  margin-top: 7rem;
+}
+
+.bg-dark {
+  background-color: var(--black);
+}
+
+.fg-primary {
+  color: var(--primary);
+}
+
+.button-white {
+  border: none;
+  border-bottom: 2px solid var(--white);
+  background-color: transparent;
+  font-family: 'Allan', sans-serif;
+  font-size: var(--step-2);
+  color: var(--white);
+}
+
+.button-white:hover {
+  color: var(--secondary);
+  border-color: var(--secondary);
+}
+
+.pizza-menu:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.vegetarisch {
+  position: relative;
+}
+
+.vegetarisch-icon {
+  position: absolute;
+  top: 1.7rem;
+  right: 8rem;
+}
+
+dialog {
+  border: none;
+  padding: 2rem 2rem 0 2rem; 
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}
+
+.pizza-content {
+  width: 100%;
+  min-height: 15rem;
+}
+
+.tab-infos {
+  display: none;
+}
+
+.accordion-button {
+  font-size: var(--step-2);
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+}
+
+a:-webkit-any-link:focus-visible {
+  outline-offset: 0;
+}
+
+.number-container {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.number-zubereitung {
+  font-size: var(--step-7);
+  color: var(--primary);
+  padding-right: .3rem;
+}
+
+@media (min-width: 768px) {
+  dialog {
+    height: 100vh;
+  }
+  .vegetarisch-icon {
+    top: 4.5rem;
+    right: 8rem;
+  }
+  .pizza-content {
+    width: 50%;
+  }
+  .tab-infos {
+    display: block;
+  }
+  .accordion-infos {
+    display: none;
+  }
+  .tablinks {
+    background-color: transparent;
+    border: none;
+    font-family: 'Allan', sans-serif;
+    font-size: var(--step-3);
+    padding-bottom: .4rem;
+    margin-right: 2rem;
+  }
+  .active {
+    color: var(--primary);
+  }
+  .number-container {
+    flex-wrap: nowrap;
+    padding-right: 1rem;
+  }
+  .number-zubereitung {
+    font-size: var(--step-5);
+  }
+  .tipps {
+    margin: 1rem 0;
+  }
+  .naehrwerte {
+    position: absolute;
+    left: 25.5rem
+  }
+}
+
+
+@media (min-width: 992px) {
+  .vegetarisch-icon {
+    top: 3rem;
+    right: 5rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .vegetarisch-icon {
+    top: 6rem;
+    right: 10rem;
   }
 }
