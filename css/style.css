@@ -643,6 +643,10 @@ a:-webkit-any-link:focus-visible {
   padding-right: .3rem;
 }
 
+#ideen {
+  margin: 5rem 0;
+}
+
 @media (min-width: 768px) {
   dialog {
     height: 100vh;
