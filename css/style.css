@@ -702,7 +702,7 @@ a:-webkit-any-link:focus-visible {
   font-family: 'Allan', sans-serif;
   font-size: var(--step--1);
   display: none;
-  width: 15rem;
+  width: 17rem;
   text-align: center;
 }
 
