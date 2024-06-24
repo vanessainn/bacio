@@ -105,7 +105,7 @@
         <div class="row">
           <div class="col-md-12">
             <video class="w-100" controls autoplay muted loop>
-              <source src="medien/bacio-werbespot.mp4" type="video/mp4">
+              <source src="medien/bacio-video.mp4" type="video/mp4">
             </video>
           </div>
         </div>
