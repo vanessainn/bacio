@@ -554,6 +554,7 @@ textarea {
 
 #pizza, #produkte {
   margin-top: 7rem;
+  overflow: hidden;
 }
 
 .bg-dark {
@@ -691,6 +692,20 @@ a:-webkit-any-link:focus-visible {
   }
 }
 
+.insta {
+  border: 2px solid var(--black);
+}
+
+.bestell-bestaetigung {
+  background-color: var(--secondary);
+  color: var(--black);
+  font-family: 'Allan', sans-serif;
+  font-size: var(--step--1);
+  display: none;
+  width: 15rem;
+  text-align: center;
+}
+
 
 @media (min-width: 992px) {
   .vegetarisch-icon {
@@ -704,4 +719,11 @@ a:-webkit-any-link:focus-visible {
     top: 6rem;
     right: 10rem;
   }
+}
+
+/* ----------------------------------------------------------------------------------------*/
+/* Über Uns */
+
+#histroy {
+  margin-top: 7rem;
 }

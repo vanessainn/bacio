@@ -100,3 +100,20 @@ document.querySelector('#salame-piccante').addEventListener('click', () => {
 document.querySelector('.close-salame-piccante').addEventListener('click', () => {
     document.querySelector('#dialog-salame-piccante').close();    
 })
+
+// Bestell Button
+
+function bestellen() {
+    var div = document.querySelector('.bestell-bestaetigung');
+    div.style.display = 'inline-block';
+
+    setTimeout(function() {
+        div.style.display = 'none';
+    }, 5000);
+}
+
+var buttons = document.querySelectorAll('.bestell-button');
+
+buttons.forEach(function(button) {
+    button.addEventListener('click', bestellen);
+});
