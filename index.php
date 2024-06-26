@@ -119,7 +119,7 @@
             <p>Für einen kompletten Sammelpass erhälst du deine<br>Lieblingspizza kostenlos im Restaurant bzw. online mitgeliefert.</p>
             <h3>werde auch du Teil der FAMIGLIA BACIO</h3>
             <p>Und ganz bald ist unser Sammelpass auch digital erhältlich!</p>
-            <a href="pizza.php"><button class="button-dark mt-3">die Produkte ansehen <i class="fa-solid fa-angle-right"></i></button></a>
+            <a href="pizza.php"><button class="button-dark mt-3">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button></a>
           </div>
           <div class="col-md-5">
             <img src="images/bacio-sammelpass.jpg" alt="" class="img-fluid">
