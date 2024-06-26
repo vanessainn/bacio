@@ -4,6 +4,13 @@
   <meta charset="UTF-8">
   <title>Pizza Bacio | Perfekt für jeden Moment</title>
   <?php include 'head.php'; ?>
+  <meta property="og:title" content="Pizza Bacio | Perfekt für jeden Moment">
+  <meta property="og:description" content="Pizza Bacio ist die erste Tiefkühlpizza, die so authentisch schmeckt, wie frisch vom Italiener. Überzeug dich jetzt selbst!">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vanessa.startmedia.at/pizzabacio/">
+  <meta property="og:image" content="https://vanessa.startmedia.at/pizzabacio/images/bacio-einkussausdemofen.png">
+  <meta property="og:site_name" content="Bacio">
+  <meta property="og:locale" content="de_DE">
 </head>
 <body>
   
