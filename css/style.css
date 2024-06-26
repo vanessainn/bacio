@@ -392,7 +392,6 @@ header {
 
 .button-dark {
   border: none;
-  border-bottom: 2px solid var(--black);
   background-color: transparent;
   font-family: 'Allan', sans-serif;
   font-size: var(--step-2);
@@ -401,10 +400,25 @@ header {
 
 .button-dark:hover {
   color: var(--secondary);
-  border-color: var(--secondary);
 }
 
 .button-dark:focus-visible {
+  outline: none;
+}
+
+.button-primary {
+  border: none;
+  background-color: transparent;
+  font-family: 'Allan', sans-serif;
+  font-size: var(--step-2);
+  color: var(--primary);
+}
+
+.button-primary:hover {
+  color: var(--secondary);
+}
+
+.button-primary:focus-visible {
   outline: none;
 }
 
@@ -567,7 +581,6 @@ textarea {
 
 .button-white {
   border: none;
-  border-bottom: 2px solid var(--white);
   background-color: transparent;
   font-family: 'Allan', sans-serif;
   font-size: var(--step-2);
@@ -576,12 +589,6 @@ textarea {
 
 .button-white:hover {
   color: var(--secondary);
-  border-color: var(--secondary);
-}
-
-.pizza-menu:hover {
-  transform: scale(1.02);
-  cursor: pointer;
 }
 
 .vegetarisch {
@@ -650,7 +657,7 @@ a:-webkit-any-link:focus-visible {
 
 @media (min-width: 768px) {
   dialog {
-    height: 100vh;
+    height: 87vh;
   }
   .vegetarisch-icon {
     top: 4.5rem;
@@ -665,6 +672,11 @@ a:-webkit-any-link:focus-visible {
   .accordion-infos {
     display: none;
   }
+
+  .tab-infos {
+    margin-top: 2rem;
+  }
+
   .tablinks {
     background-color: transparent;
     border: none;
@@ -683,12 +695,10 @@ a:-webkit-any-link:focus-visible {
   .number-zubereitung {
     font-size: var(--step-5);
   }
-  .tipps {
-    margin: 1rem 0;
-  }
   .naehrwerte {
     position: absolute;
-    left: 25.5rem
+    left: 37rem;
+    bottom: 0;
   }
 }
 
@@ -697,12 +707,14 @@ a:-webkit-any-link:focus-visible {
 }
 
 .bestell-bestaetigung {
+  display: flex;
+  justify-content: center;
   background-color: var(--secondary);
   color: var(--black);
   font-family: 'Allan', sans-serif;
-  font-size: var(--step--1);
+  font-size: var(--step-0);
   display: none;
-  width: 17rem;
+  padding: 1rem;
   text-align: center;
 }
 
@@ -711,6 +723,10 @@ a:-webkit-any-link:focus-visible {
   .vegetarisch-icon {
     top: 3rem;
     right: 5rem;
+  }
+  .radio {
+    padding-top: 4rem;
+    padding-left: 8rem;
   }
 }
 
@@ -724,6 +740,75 @@ a:-webkit-any-link:focus-visible {
 /* ----------------------------------------------------------------------------------------*/
 /* Über Uns */
 
-#histroy {
+#history {
   margin-top: 7rem;
+  margin-bottom: 2rem;
+}
+
+.additional-text {
+  display: none;
+}
+
+.more-btn {
+  border: none;
+  font-family: 'Allan', sans-serif;
+  font-size: var(--step-2);
+  background-color: transparent;
+}
+
+#reise {
+  margin: 2rem 0;
+}
+
+#reise .carousel-indicators {
+  background-color: var(--white);
+  bottom: -1.5rem;
+  margin: 0;
+}
+
+#reise .carousel-indicators button {
+ background-color: var(--black);
+}
+
+.carousel {
+  max-width: 80vw;
+}
+
+#reise .carousel .carousel-control-prev {
+  background-color: var(--white);
+  width: 3rem;
+  left: -3rem;
+  opacity: 1;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+}
+
+#reise .carousel .carousel-control-next {
+  background-color: var(--white);
+  width: 3rem;
+  right: -3rem;
+  opacity: 1;
+}
+
+.fg-dark {
+  color: var(--black);
+}
+
+@media (min-width: 768px) {
+  #history {
+    display: flex;
+  }
+
+  #history .row {
+    justify-content: center;
+  }
+  .history-content {
+    max-width: 800px;
+  }
+  .pizza-content {
+    padding: 4rem;
+  }
 }

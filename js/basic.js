@@ -142,5 +142,5 @@ function toggleText() {
 var more = document.querySelectorAll(".additional-text");
 
 more.forEach(function(more) {
-  more.addEventListener('click', toggleTExt);
+  more.addEventListener('click', toggleText);
 })
