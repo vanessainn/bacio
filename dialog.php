@@ -14,7 +14,7 @@
         <p>Tomatensauce, Mozzarella, frischer Basilikum</p>
         <a><button class="button-dark mt-3 bestell-button">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button></a>
       </div>
-      <div class="tab-infos col-md-12 mt-5">
+      <div class="tab-infos col-md-12">
         <div class="tab">
           <button class="tablinks" onclick="openInfo(event, 'geschichte1')">Geschichte</button>
           <button class="tablinks" onclick="openInfo(event, 'zubereitung1')" id="defaultOpen">Zubereitung</button>
@@ -218,7 +218,7 @@
         <p>Tomatensauce, Mozzarella, Spinat, Ricotta-Käse</p>
         <a><button class="button-dark mt-3 bestell-button">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button></a>
       </div>
-      <div class="tab-infos col-md-12 mt-5">
+      <div class="tab-infos col-md-12">
         <div class="tab">
           <button class="tablinks" onclick="openInfo(event, 'geschichte2')">Geschichte</button>
           <button class="tablinks" onclick="openInfo(event, 'zubereitung2')" id="defaultOpen">Zubereitung</button>
@@ -420,7 +420,7 @@
         <p>Tomatensauce, Mozzarella, Schinken, Champignons</p>
         <a><button class="button-dark mt-3 bestell-button">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button></a>
       </div>
-      <div class="tab-infos col-md-12 mt-5">
+      <div class="tab-infos col-md-12">
         <div class="tab">
           <button class="tablinks" onclick="openInfo(event, 'geschichte3')">Geschichte</button>
           <button class="tablinks" onclick="openInfo(event, 'zubereitung3')" id="defaultOpen">Zubereitung</button>
@@ -622,7 +622,7 @@
         <p>Tomatensauce, Mozzarella, Salami</p>
         <a><button class="button-dark mt-3 bestell-button">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button></a>
       </div>
-      <div class="tab-infos col-md-12 mt-5">
+      <div class="tab-infos col-md-12">
         <div class="tab">
           <button class="tablinks" onclick="openInfo(event, 'geschichte4')">Geschichte</button>
           <button class="tablinks" onclick="openInfo(event, 'zubereitung4')" id="defaultOpen">Zubereitung</button>
@@ -825,7 +825,7 @@
         Cheddar und Blauschimmelkäse</p>
         <a><button class="button-dark mt-3 bestell-button">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button></a>
       </div>
-      <div class="tab-infos col-md-12 mt-5">
+      <div class="tab-infos col-md-12">
         <div class="tab">
           <button class="tablinks" onclick="openInfo(event, 'geschichte5')">Geschichte</button>
           <button class="tablinks" onclick="openInfo(event, 'zubereitung5')" id="defaultOpen">Zubereitung</button>
@@ -1027,7 +1027,7 @@
         <p>Tomatensauce, Mozzarella, Schinken, Ananas</p>
         <a><button class="button-dark mt-3 bestell-button">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button></a>
       </div>
-      <div class="tab-infos col-md-12 mt-5">
+      <div class="tab-infos col-md-12">
         <div class="tab">
           <button class="tablinks" onclick="openInfo(event, 'geschichte6')">Geschichte</button>
           <button class="tablinks" onclick="openInfo(event, 'zubereitung6')" id="defaultOpen">Zubereitung</button>
@@ -1229,7 +1229,7 @@
         <p>Tomatensauce, Mozzarella, Thunfisch, rote Zwiebeln</p>
         <a><button class="button-dark mt-3 bestell-button">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button></a>
       </div>
-      <div class="tab-infos col-md-12 mt-5">
+      <div class="tab-infos col-md-12">
         <div class="tab">
           <button class="tablinks" onclick="openInfo(event, 'geschichte7')">Geschichte</button>
           <button class="tablinks" onclick="openInfo(event, 'zubereitung7')" id="defaultOpen">Zubereitung</button>
@@ -1431,17 +1431,17 @@
         <p>Tomatensauce, Mozzarella, scharfe Salami, Peperoni (Chili)</p>
         <a><button class="button-dark mt-3 bestell-button">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button></a>
       </div>
-      <div class="tab-infos col-md-12 mt-5">
+      <div class="tab-infos col-md-12">
         <div class="tab">
           <button class="tablinks" onclick="openInfo(event, 'geschichte8')">Geschichte</button>
           <button class="tablinks" onclick="openInfo(event, 'zubereitung8')" id="defaultOpen">Zubereitung</button>
           <button class="tablinks" onclick="openInfo(event, 'naehrwerte8')">Nährwerte</button>
         </div>
         <div class="d-flex">
-          <div id="geschichte8" class="tabcontent mt-3 story">
+          <div id="geschichte8" class="tabcontent mt-1 story">
           <p>Auf ihrer Reise durch Italien machten Andreas und Armando Halt in der romantischen Stadt Venedig. In einer kleinen, versteckten Pizzeria am Kanal fanden sie den erfahrenen Pizzaiolo Carlo, der sie in die Geheimnisse der venezianischen Pizza einweihte. Sie lernten, den Teig hauchdünn zu rollen und mit frischen Meeresfrüchten und Kräutern zu belegen. Am Abend, während sie in einer Gondel über die Kanäle glitten und die beleuchtete Rialtobrücke bewunderten, genossen sie eine köstliche Pizza, die nach Meer und Tradition schmeckte. Diese magische Erfahrung inspirierte sie, mit Pizza Bacio die Einzigartigkeit und den Zauber Venedigs in jede Pizza zu bringen.</p>
           </div>
-          <div id="zubereitung8" class="tabcontent mt-3">
+          <div id="zubereitung8" class="tabcontent mt-1">
             <div class="col-md-12 d-flex">
               <div class="col-md-3 number-container">
                 <div class="d-flex align-items-center">
