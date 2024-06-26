@@ -52,13 +52,13 @@ if (isset($_POST['submit'])) {
 
         $mail->Body    = 
          
-            "<h1 style='font-family: 'Allan', sans serif; color: #5B91C7; font-size: 20px;>Vielen Dank für deine Nachricht!</h1>" 
+            "<h1 style='color: #5B91C7; font-size: 20px;>Vielen Dank für deine Nachricht!</h1>" 
             . ""
             . "<p style='font-size: 16px;'>Hier sind alle Daten und die Nachchricht nochmal zusammengefasst:</p>" 
             . $name . "<br>"
             . $email . "<br>"
             . $nachricht . "<br>"
-            . "<p>Das Team Bacio bemüht sich deine Nachricht so zeitnah wie möglich zu bearbeiten.</p>";
+            . "<p>Dein Team Bacio wird sich bald bei dir melden.</p>";
             
 
         try {
