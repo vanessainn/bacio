@@ -10,7 +10,7 @@
   <header class="d-flex flex-column justify-content-center">
     <nav class="nav1 no-shadow navbar navbar-expand-md fixed-top">
       <div class="container-fluid ps-4 nav-container">
-        <a class="navbar-brand" href="index.php">
+        <a class="navbar-brand" href="index.php" aria-label="Gehe zur Startseite">
           <svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750.3 240.6">
             <defs>
             </defs>

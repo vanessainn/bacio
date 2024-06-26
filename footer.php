@@ -2,7 +2,7 @@
     <div class="container-fluid">
       <div class="row d-flex justify-content-center">
         <div class="col-md-3">
-          <a href="index.php"><svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750.3 240.6">
+          <a href="index.php" aria-label="Gehe zur Startseite"><svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750.3 240.6">
             <defs>
             </defs>
             <path class="cls-1" d="M24.3,240.6V38.4c0-7.2-2.25-13-6.75-17.4C13.05,16.6,7.2,14.4,0,14.4v-3h30.6c11.8,0,19.9-1.1,24.3-3.3,4.4-2.2,7.6-4.9,9.6-8.1h3v109.2c4.6-9,11.05-16.2,19.35-21.6,8.3-5.4,17.45-8.1,27.45-8.1,11.8,0,22.3,3.5,31.5,10.5,9.2,7,16.45,16.5,21.75,28.5,5.3,12,7.95,25.7,7.95,41.1s-2.95,30.1-8.85,42.3c-5.9,12.2-14.15,21.7-24.75,28.5-10.6,6.8-23,10.2-37.2,10.2-23.8,0-39.8-9.9-48-29.7l-29.4,29.7h-3ZM96,235.5c10.6,0,18.6-6.6,24-19.8s8.1-32.6,8.1-58.2c0-22.4-2.1-39-6.3-49.8-4.2-10.8-10.8-16.2-19.8-16.2-8,0-15.05,2.9-21.15,8.7-6.1,5.8-10.55,12.3-13.35,19.5v75.3c.8,12.4,3.7,22.25,8.7,29.55,5,7.3,11.6,10.95,19.8,10.95Z"/>
@@ -19,8 +19,8 @@
             <a href="kontakt.php">Kontakt</a>
           </div>
           <div class="footer-socials d-flex">
-            <a href="https://www.instagram.com/pizza.bacio/"><i class="fa-brands fa-instagram fs-1 fg-white"></i></a>
-            <a href="https://www.facebook.com/bizza.bacio"><i class="fa-brands fa-facebook fs-1 fg-white"></i></a>
+            <a href="https://www.instagram.com/pizza.bacio/" aria-label="Sieh dir unsere Instagram Seite an"><i class="fa-brands fa-instagram fs-1 fg-white"></i></a>
+            <a href="https://www.facebook.com/bizza.bacio" aria-label="Sieh dir unsere Facebook Seite an"><i class="fa-brands fa-facebook fs-1 fg-white"></i></a>
           </div>
         </div>
         <div class="col-md-12 d-flex justify-content-center fg-white">
