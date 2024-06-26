@@ -14,22 +14,22 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1>Besuch uns doch in unserer Pizzeria !</h1>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2707.659761074392!2d11.39026627649128!3d47.262356071160376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479d6be47c2d74b5%3A0x285c061b1b992de9!2sMaximilianstra%C3%9Fe%2011%2C%206020%20Innsbruck!5e0!3m2!1sde!2sat!4v1718608056034!5m2!1sde!2sat" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+            <h1 data-aos="fade-up" data-aos-duration="1000">Besuch uns doch in unserer Pizzeria !</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2707.659761074392!2d11.39026627649128!3d47.262356071160376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479d6be47c2d74b5%3A0x285c061b1b992de9!2sMaximilianstra%C3%9Fe%2011%2C%206020%20Innsbruck!5e0!3m2!1sde!2sat!4v1718608056034!5m2!1sde!2sat" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" data-aos="fade-up" data-aos-duration="1000"></iframe>
           </div>
         </div>
         <div class="row mt-3">
         <div class="col-md-6">
-            <p>Pizza Bacio GmbH<br>Armando Ammirati & Andreas Schmid<br>Maximilianstraße 11<br>6020 Innsbruck<br>Österreich</p><br>
+            <p data-aos="fade-up" data-aos-duration="1000">Pizza Bacio GmbH<br>Armando Ammirati & Andreas Schmid<br>Maximilianstraße 11<br>6020 Innsbruck<br>Österreich</p><br>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000">
             <a href="tel:+496542368512">T: +49 654 236 8512</a><br>
             <a href="mailto:info@pizzabacio.at">M: info@pizzabacio.at</a>
           </div>
         </div>
       </div>
     </section>
-    <section id="kontaktformualr" class="mt-4">
+    <section id="kontaktformualr" class="my-4" data-aos="fade-up" data-aos-duration="1000">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
