@@ -60,7 +60,7 @@
                 <label for="datenschutz"><input type="checkbox" name="datenschutz" id="datenschutz" required=""> Ich akzeptiere die Datenschutzerklärung und stimme der Verarbeitung meiner Daten zu.</label>                
                 <div class="invalid-feedback">Dem Datenschutz muss zugestimmt werden.</div>
               </div>
-              <button type="submit" name="submit" class="button-dark">absenden</button>
+              <button type="submit" name="submit" class="button-dark">absenden <i class="fa-solid fa-angle-right"></i></button>
             </form>
           </div>
         </div>
