@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Bacio | Ein Kuss aus dem Ofen.</title>
+  <title>Pizza Bacio | Perfekt für jeden Moment</title>
   <?php include 'head.php'; ?>
 </head>
 <body>

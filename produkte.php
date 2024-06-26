@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Unsere Pizzen | Bacio</title>
+  <title>Unsere Produkte | Bacio</title>
   <?php include 'head.php'; ?>
 </head>
 <body>
