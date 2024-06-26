@@ -138,3 +138,9 @@ function toggleText() {
         buttonIcon.classList.add("fa-plus");
     }
 }
+
+var more = document.querySelectorAll(".additional-text");
+
+more.forEach(function(more) {
+  more.addEventListener('click', toggleTExt);
+})
