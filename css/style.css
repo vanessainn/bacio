@@ -718,7 +718,7 @@ a:-webkit-any-link:focus-visible {
   .naehrwerte {
     position: absolute;
     left: 37rem;
-    bottom: 0;
+    top: 25.6rem;
   }
 }
 
