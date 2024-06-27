@@ -111,7 +111,7 @@
           </div>
         </div>
         <div class="pizza-menu d-flex flex-wrap-reverse" data-aos="fade-left" data-aos-duration="1000">
-          <div class="col-md-6 pizza-content mb-5 d-flex flex-column justify-content-center text-center">
+          <div class="col-md-6 pizza-content d-flex flex-column justify-content-center text-center">
             <h2>Pizza Salame Piccante</h2>
             <p>Tomatensauce, Mozzarella, scharfe Salami</p>
             <div>
@@ -119,11 +119,23 @@
               <a><button id="salame-piccante" class="button-dark mt-3">mehr erfahren <i class="fa-solid fa-angle-right"></i></button></a>
             </div>
           </div>
-          <div class="col-md-6 mb-5">
+          <div class="col-md-6">
           <img src="images/bacio-pizza-salame-piccante.jpg" alt="Bacio Pizza Salame Piccante" title="Bacio Pizza Salame Piccante" class="img-fluid">
           </div>
         </div>
+        <div class="pizza-menu d-flex flex-wrap mb-5" data-aos="fade-right" data-aos-duration="1000">
+          <div class="col-md-6">
+          <img src="images/bacio-pizza-solo.jpg" alt="Bacio Pizza Solo" title="Bacio Pizza Solo" class="img-fluid">
+          </div>
+          <div class="col-md-6 pizza-content bg-dark fg-white d-flex flex-column justify-content-center text-center">
+            <h2>Pizza Solo</h2>
+            <p>Stell dir ganz einfach deine eigene Lieblingspizza<br> bei uns zusammen!</p>
+            <div>
+              <a href="kontakt.php"><button class="button-primary mt-3">besuche unsere Pizzeria <i class="fa-solid fa-angle-right"></i></button></a>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <?php include 'dialog.php'; ?>
    </section>
