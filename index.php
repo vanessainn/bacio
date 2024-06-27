@@ -61,7 +61,7 @@
           <div class="col-md-4">
             <img src="images/bacio-pisa.png" alt="Zeichnung vom schiefen Turm von Pisa" title="Zeichnung vom schiefen Turm von Pisa" class="img-fluid">
           </div>
-          <div class="col-md-8 d-flex flex-column justify-content-center pt-4 content my-5">
+          <div class="col-md-8 d-flex flex-column justify-content-center pt-4 content mt-3">
             <div class="col-md-12" data-aos="fade-up" data-aos-duration="1000">
               <h2 class="text-center">Dafür steht unsere Marke</h2>
             </div>

@@ -319,7 +319,6 @@ header {
 
 .button-light {
   border: none;
-  border-bottom: 3px solid var(--white);
   background-color: transparent;
   padding: .2rem 0;
   font-family: 'Allan', sans-serif;
@@ -328,8 +327,7 @@ header {
 }
 
 .button-light:hover {
-  color: var(--black);
-  border-color: var(--black);
+  color: var(--primary);
 }
 
 .more-light {
@@ -373,7 +371,7 @@ header {
 }
 
 #info img {
-  padding: 4rem 4rem 4rem 0;
+  padding: 0 4rem 4rem 0;
 }
 
 #info .content {
@@ -439,6 +437,14 @@ header {
 @media (min-width: 768px) {
   #info .content {
     padding: 2rem 5rem 2rem 2rem;
+  }
+
+  #info .content {
+    margin-top: 4rem;
+  }
+
+  #info img {
+    padding: 4rem 4rem 4rem 0;
   }
 
   .brand-info {
