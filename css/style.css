@@ -466,6 +466,16 @@ header {
   }
 }
 
+@media (min-width: 1640px) {
+  .number-box:nth-child(2) {
+    left: 30rem;
+    top: 6rem;
+  }
+  .number-box:nth-child(3) {
+    margin: 7rem 0 2rem 3rem;
+  }
+}
+
 /* ----------------------------------------------------------------------------------------*/
 /* Impressum & Datenschutz & Kontakt */
 
