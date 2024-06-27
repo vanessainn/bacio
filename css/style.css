@@ -689,6 +689,10 @@ a:-webkit-any-link:focus-visible {
     display: none;
   }
 
+  .dialog-description {
+    padding-left: 2rem;
+  }
+
   .tab-infos {
     margin-top: 2rem;
   }

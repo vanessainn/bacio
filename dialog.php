@@ -7,7 +7,7 @@
       <div class="col-md-5">
         <img src="images/bacio-pizza-margherita.jpg" alt="Bacio Pizza Margherita" title="Bacio Pizza Margherita" class="img-fluid">
       </div>
-      <div class="col-md-7 ps-5">
+      <div class="col-md-7 dialog-description">
         <h2 class="mt-4">Pizza Margherita</h2>
         <p>Die Pizza Margherita ist ein klassisches italienisches Gericht, das für seine Einfachheit und seinen authentischen Geschmack bekannt ist. Mit einer Basis aus reichhaltiger Tomatensauce, bedeckt mit zart schmelzender Mozzarella und garniert mit duftendem, frischem Basilikum, bietet diese Pizza ein harmonisches Gleichgewicht von Aromen. Perfekt für Liebhaber traditioneller italienischer Küche.</p>
         <h3>das erwartet dich bei der Pizza Margherita</h3>
@@ -211,7 +211,7 @@
       <div class="col-md-5">
         <img src="images/bacio-pizza-spinaci-ricotta.jpg" alt="Bacio Pizza Spinaci e Ricotta" title="Bacio Pizza Spinaci e Ricotta"class="img-fluid">
       </div>
-      <div class="col-md-7 ps-5">
+      <div class="col-md-7 dialog-description">
         <h2 class="mt-4">Pizza Spinaci e Ricotta</h2>
         <p>Eine vegetarische Delikatesse, die den frischen Geschmack von Spinat mit der cremigen Textur von Ricotta-Käse vereint. Die Tomatensauce und der Mozzarella sorgen für eine reichhaltige Basis, während der Spinat und der Ricotta eine leichte und dennoch geschmacksintensive Kombination bilden.</p>
         <h3>das erwartet dich bei der Pizza Spinaci e Ricotta</h3>
@@ -413,7 +413,7 @@
       <div class="col-md-5">
         <img src="images/bacio-pizza-prosciutto-funghi.jpg" alt="Bacio Pizza Prosciutto e Funghi" title="Bacio Pizza Prosciutto e Funghi" class="img-fluid">
       </div>
-      <div class="col-md-7 ps-5">
+      <div class="col-md-7 dialog-description">
         <h2 class="mt-4">Pizza Prosciutto e Funghi</h2>
         <p>Diese Pizza kombiniert den herzhaften Geschmack von hochwertigem Schinken mit den erdigen Noten frischer Champignons. Eine reichhaltige Tomatensauce und zerlaufener Mozzarella runden das Geschmacksprofil ab, sodass jeder Bissen eine ausgewogene Mischung von Aromen und Texturen bietet.</p>
         <h3>das erwartet dich bei der Pizza Prosciutto e Funghi</h3>
@@ -615,7 +615,7 @@
       <div class="col-md-5">
         <img src="images/bacio-pizza-salame.jpg" alt="Bacio Pizza Salame" title="Bacio Pizza Salame" class="img-fluid">
       </div>
-      <div class="col-md-7 ps-5">
+      <div class="col-md-7 dialog-description">
         <h2 class="mt-4">Pizza Salame</h2>
         <p>Ein Favorit für alle Fleischliebhaber. Die Pizza Salami besticht durch ihre großzügige Belegung mit würziger Salami, die auf einer Basis aus aromatischer Tomatensauce und cremigem Mozzarella liegt. Der pikante Geschmack der Salami wird durch die geschmolzene Käseschicht perfekt ergänzt, was diese Pizza zu einem echten Genuss macht.</p>
         <h3>das erwartet dich bei der Pizza Salame</h3>
@@ -817,7 +817,7 @@
       <div class="col-md-5">
       <img src="images/bacio-pizza-quattro-formaggi.jpg" alt="Bacio Pizza Quattro Formaggi" title="Bacio Pizza Quattro Formaggi" class="img-fluid">
       </div>
-      <div class="col-md-7 ps-5">
+      <div class="col-md-7 dialog-description">
       <h2 class="mt-4">Pizza Quattro Formaggi</h2>
       <p>Ein wahrer Genuss für Käseliebhaber. Diese Pizza vereint die intensiven Aromen von vier verschiedenen Käsesorten: Mozzarella, Bergkäse, Cheddar und Blauschimmelkäse. Jede Käsesorte bringt ihre eigene Textur und Geschmack mit, die zusammen eine reichhaltige und geschmacklich komplexe Pizza ergeben. Ein luxuriöses Geschmackserlebnis.</p>
       <h3>das erwartet dich bei der Pizza Quattro Formaggi</h3>
@@ -1020,7 +1020,7 @@
       <div class="col-md-5">
       <img src="images/bacio-pizza-prosciutto-ananas.jpg" alt="Bacio Pizza Prosciutto e Ananas" title="Bacio Pizza Prosciutto e Ananas" class="img-fluid">
       </div>
-      <div class="col-md-7 ps-5">
+      <div class="col-md-7 dialog-description">
       <h2 class="mt-4">Pizza Prosciutto e Ananas</h2>
       <p>Die Hawaii-Pizza kombiniert den salzigen Geschmack von saftigem Schinken mit der süßen Frische von Ananas. Die Tomatensauce und der Mozzarella bieten eine köstliche Grundlage, die die süß-salzige Geschmackskombination perfekt zur Geltung bringt. Eine exotische Wahl für mutige Genießer.</p>
       <h3>das erwartet dich bei der Pizza Prosciutto e Ananas</h3>
@@ -1222,7 +1222,7 @@
       <div class="col-md-5">
       <img src="images/bacio-pizza-tonno-cipolla.jpg" alt="Bacio Pizza Tonno e Cipolla" title="Bacio Pizza Tonno e Cipolla" class="img-fluid">
       </div>
-      <div class="col-md-7 ps-5">
+      <div class="col-md-7 dialog-description">
       <h2 class="mt-4">Pizza Tonno e Cipolla</h2>
       <p>Diese Pizza bietet eine einzigartige Kombination aus zartem Thunfisch und knackigen roten Zwiebeln. Die Tomatensauce und der Mozzarella bilden die perfekte Basis, um die maritimen Aromen des Thunfischs und die süße Schärfe der Zwiebeln zu betonen. Ein Muss für alle Liebhaber von Meeresfrüchten.</p>
       <h3>das erwartet dich bei der Pizza Tonno e Cipolla</h3>
@@ -1424,7 +1424,7 @@
       <div class="col-md-5">
       <img src="images/bacio-pizza-salame-piccante.jpg" alt="Bacio Pizza Salame Piccante" title="Bacio Pizza Salame Piccante" class="img-fluid">
       </div>
-      <div class="col-md-7 ps-5">
+      <div class="col-md-7 dialog-description">
       <h2 class="mt-4">Pizza Salame Piccante</h2>
       <p>Für diejenigen, die es gerne scharf mögen, bietet diese Pizza eine feurige Mischung aus scharfer Salami und Chili-Peperoni. Die Tomatensauce und der Mozzarella balancieren die Schärfe und sorgen für ein intensives und aufregendes Geschmackserlebnis.</p>
       <h3>das erwartet dich bei der Pizza Salame Piccante</h3>
