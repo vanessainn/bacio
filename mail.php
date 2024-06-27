@@ -44,26 +44,38 @@ if (isset($_POST['submit'])) {
         $mail->FromName = "Bacio";
 
         //$mail->addAddress($email, $name );
-        $mail->addAddress('vanessa.innerbichler@gmail.com', "Vanessa Innerbichler");
+        $mail->addAddress($email, $name);
+        $mail->addCC('vanessa.innerbichler@gmail.com', "Vanessa Innerbichler");
 
         $mail->isHTML(true);
 
-        $mail->Subject = "Team Bacio kümmert sich um deine Nachricht.";
+        $mail->Subject = "Team Bacio freut sich über deine Nachricht!";
 
         $mail->Body    = 
-         
-            "<h1 style='color: #5B91C7; font-size: 20px;>Vielen Dank für deine Nachricht!</h1>" 
-            . ""
-            . "<p style='font-size: 16px;'>Hier sind alle Daten und die Nachchricht nochmal zusammengefasst:</p>" 
-            . $name . "<br>"
-            . $email . "<br>"
-            . $nachricht . "<br>"
-            . "<p>Dein Team Bacio wird sich bald bei dir melden.</p>";
-            
+
+        "<h1 style='color: #5B91C7; font-size: 24px;'>Vielen Dank für deine Nachricht!</h1>
+        <p style='font-size: 16px;'>Wir haben deine Nachricht erhalten und möchten dir hier eine Zusammenfassung deiner Angaben geben:</p>
+        <table border='1' cellpadding='10' cellspacing='0' style='border-collapse: collapse; width: 100%; font-size: 16px;'>
+            <tr>
+                <th style='text-align: left; background-color: #f2f2f2;'>Name</th>
+                <td>$name</td>
+            </tr>
+            <tr>
+                <th style='text-align: left; background-color: #f2f2f2;'>E-Mail</th>
+                <td>$email</td>
+            </tr>
+            <tr>
+                <th style='text-align: left; background-color: #f2f2f2;'>Nachricht</th>
+                <td>$nachricht</td>
+            </tr>
+        </table>
+        <p>Unser Team wird sich so bald wie möglich mit dir in Verbindung setzen.</p>
+        <p>Beste Grüße,<br>dein Team Bacio</p>
+    ";
 
         try {
             $mail->send();
-            echo '<h1>Danke</h1><h2>Wir melden uns bei Ihnen ' . $vorname . ' ' . $nachname . '</h2>';
+            echo '<h1>Danke</h1><h2>Wir melden uns bei dir ' . $vorname . ' ' . $nachname . '</h2>';
             echo '<script>window.location.replace("danke.php")</script>';
             
         } catch (Exception $ex) {
