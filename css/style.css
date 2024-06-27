@@ -83,7 +83,6 @@ nav svg {
 
 .nav1 {
   background-color: var(--white);
-  transition: all .4s ease;
   padding: 1rem 2rem;  
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
@@ -102,10 +101,6 @@ nav svg {
 
 .nav2 .cls-1 {
   fill: var(--primary);
-}
-
-.nav1 .nav-item {
-  margin-left: 2rem;
 }
 
 .nav-link {
