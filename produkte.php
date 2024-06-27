@@ -23,14 +23,14 @@
           <div class="col-md-6 pizza-content bg-dark fg-white d-flex flex-column justify-content-center text-center">
             <h2>Bacio T-Shirt</h2>
             <p>Das Bacio T-Shirt vereint Komfort und Stil in einem zeitlosen Design.<br>In einer Einheitsgröße und bald auch in mehreren Farben erhältlich.</p>
-            <a><button class="button-white mt-3 bestell-button">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button></a>
+            <button class="button-white mt-3 bestell-button">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button>
           </div>
         </div>
         <div id="aromi" class="pizza-menu d-flex flex-wrap-reverse" data-aos="fade-left" data-aos-duration="1000">
           <div class="col-md-6 pizza-content d-flex flex-column justify-content-center text-center">
             <h2>Bacio Aromi</h2>
             <p>Chili, Knoblauch, Paprika, Getrocknete Tomaten, Pfeffer, Salz<br>Perfekt, um deiner Pizza eine feurige Note zu geben<br> und gleichzeitig die Aromen der anderen Zutaten zu betonen.</p>
-            <a><button class="button-dark mt-3 bestell-button">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button></a>
+            <button class="button-dark mt-3 bestell-button">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button>
           </div>
           <div class="col-md-6">
             <img src="images/bacio-aromi.jpg" alt="Bacio Aromi" title="Bacio Aromi" class="img-fluid">
@@ -43,7 +43,7 @@
           <div class="col-md-6 pizza-content d-flex flex-column justify-content-center text-center">
             <h2>Bacio Borsa</h2>
             <p>Die Bacio Stofftasche ist robust und stilvoll,<br> mit einem dezenten Logo bedruckt.<br>Sie bietet ausreichend Platz für Einkäufe und tägliche Gegenstände<br> und kann bequem über der Schulter getragen werden.</p>
-            <a><button class="button-dark mt-3 bestell-button">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button></a>
+            <button class="button-dark mt-3 bestell-button">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button>
           </div>
         </div>
       </div>
@@ -69,7 +69,7 @@
     </div>
    </section>
 
-   <div class="bestell-bestaetigung p-1 fixed-bottom">
+   <div class="bestell-bestaetigung py-3 fixed-bottom">
     Der Artikel wurde zum Wahrenkorb hinzugefügt.
   </div>
 

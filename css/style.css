@@ -734,15 +734,19 @@ a:-webkit-any-link:focus-visible {
   text-align: center;
 }
 
+.radio {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 
 @media (min-width: 992px) {
   .vegetarisch-icon {
     top: 3rem;
     right: 5rem;
-  }
-  .radio {
-    padding-top: 4rem;
-    padding-left: 8rem;
   }
 }
 
