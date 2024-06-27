@@ -16,7 +16,7 @@
           <span><i class="fa-solid fa-bars nav-bar-color"></i></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav text-end">
             <li class="nav-item">
               <a class="nav-link" href="pizza.php">Pizza</a>
             </li>

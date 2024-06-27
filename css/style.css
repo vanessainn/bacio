@@ -83,7 +83,7 @@ nav svg {
 
 .nav1 {
   background-color: var(--white);
-  transition: all .4s ease-in-out;
+  transition: all .4s ease;
   padding: 1rem 2rem;  
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
@@ -203,6 +203,10 @@ footer svg {
   height: auto;
   margin-left: 2rem;
   margin-bottom: 1rem;
+}
+
+footer .cls-1 {
+  fill: var(--white);
 }
 
 footer img {
