@@ -12,7 +12,7 @@
         <p>Die Pizza Margherita ist ein klassisches italienisches Gericht, das für seine Einfachheit und seinen authentischen Geschmack bekannt ist. Mit einer Basis aus reichhaltiger Tomatensauce, bedeckt mit zart schmelzender Mozzarella und garniert mit duftendem, frischem Basilikum, bietet diese Pizza ein harmonisches Gleichgewicht von Aromen. Perfekt für Liebhaber traditioneller italienischer Küche.</p>
         <h3>das erwartet dich bei der Pizza Margherita</h3>
         <p>Tomatensauce, Mozzarella, frischer Basilikum</p>
-        <a><button class="button-dark mt-3 bestell-button">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button></a>
+        <button class="button-dark mt-3 bestell-button">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button>
       </div>
       <div class="tab-infos col-md-12">
         <div class="tab">
@@ -216,7 +216,7 @@
         <p>Eine vegetarische Delikatesse, die den frischen Geschmack von Spinat mit der cremigen Textur von Ricotta-Käse vereint. Die Tomatensauce und der Mozzarella sorgen für eine reichhaltige Basis, während der Spinat und der Ricotta eine leichte und dennoch geschmacksintensive Kombination bilden.</p>
         <h3>das erwartet dich bei der Pizza Spinaci e Ricotta</h3>
         <p>Tomatensauce, Mozzarella, Spinat, Ricotta-Käse</p>
-        <a><button class="button-dark mt-3 bestell-button">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button></a>
+        <button class="button-dark mt-3 bestell-button">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button>
       </div>
       <div class="tab-infos col-md-12">
         <div class="tab">
@@ -418,7 +418,7 @@
         <p>Diese Pizza kombiniert den herzhaften Geschmack von hochwertigem Schinken mit den erdigen Noten frischer Champignons. Eine reichhaltige Tomatensauce und zerlaufener Mozzarella runden das Geschmacksprofil ab, sodass jeder Bissen eine ausgewogene Mischung von Aromen und Texturen bietet.</p>
         <h3>das erwartet dich bei der Pizza Prosciutto e Funghi</h3>
         <p>Tomatensauce, Mozzarella, Schinken, Champignons</p>
-        <a><button class="button-dark mt-3 bestell-button">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button></a>
+        <button class="button-dark mt-3 bestell-button">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button>
       </div>
       <div class="tab-infos col-md-12">
         <div class="tab">
@@ -620,7 +620,7 @@
         <p>Ein Favorit für alle Fleischliebhaber. Die Pizza Salami besticht durch ihre großzügige Belegung mit würziger Salami, die auf einer Basis aus aromatischer Tomatensauce und cremigem Mozzarella liegt. Der pikante Geschmack der Salami wird durch die geschmolzene Käseschicht perfekt ergänzt, was diese Pizza zu einem echten Genuss macht.</p>
         <h3>das erwartet dich bei der Pizza Salame</h3>
         <p>Tomatensauce, Mozzarella, Salami</p>
-        <a><button class="button-dark mt-3 bestell-button">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button></a>
+        <button class="button-dark mt-3 bestell-button">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button>
       </div>
       <div class="tab-infos col-md-12">
         <div class="tab">
@@ -823,7 +823,7 @@
       <h3>das erwartet dich bei der Pizza Quattro Formaggi</h3>
         <p>Tomatensauce, Mozzarella, Bergkäse, 
         Cheddar und Blauschimmelkäse</p>
-        <a><button class="button-dark mt-3 bestell-button">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button></a>
+        <button class="button-dark mt-3 bestell-button">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button>
       </div>
       <div class="tab-infos col-md-12">
         <div class="tab">
@@ -1025,7 +1025,7 @@
       <p>Die Hawaii-Pizza kombiniert den salzigen Geschmack von saftigem Schinken mit der süßen Frische von Ananas. Die Tomatensauce und der Mozzarella bieten eine köstliche Grundlage, die die süß-salzige Geschmackskombination perfekt zur Geltung bringt. Eine exotische Wahl für mutige Genießer.</p>
       <h3>das erwartet dich bei der Pizza Prosciutto e Ananas</h3>
         <p>Tomatensauce, Mozzarella, Schinken, Ananas</p>
-        <a><button class="button-dark mt-3 bestell-button">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button></a>
+        <button class="button-dark mt-3 bestell-button">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button>
       </div>
       <div class="tab-infos col-md-12">
         <div class="tab">
@@ -1227,7 +1227,7 @@
       <p>Diese Pizza bietet eine einzigartige Kombination aus zartem Thunfisch und knackigen roten Zwiebeln. Die Tomatensauce und der Mozzarella bilden die perfekte Basis, um die maritimen Aromen des Thunfischs und die süße Schärfe der Zwiebeln zu betonen. Ein Muss für alle Liebhaber von Meeresfrüchten.</p>
       <h3>das erwartet dich bei der Pizza Tonno e Cipolla</h3>
         <p>Tomatensauce, Mozzarella, Thunfisch, rote Zwiebeln</p>
-        <a><button class="button-dark mt-3 bestell-button">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button></a>
+        <button class="button-dark mt-3 bestell-button">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button>
       </div>
       <div class="tab-infos col-md-12">
         <div class="tab">
@@ -1429,7 +1429,7 @@
       <p>Für diejenigen, die es gerne scharf mögen, bietet diese Pizza eine feurige Mischung aus scharfer Salami und Chili-Peperoni. Die Tomatensauce und der Mozzarella balancieren die Schärfe und sorgen für ein intensives und aufregendes Geschmackserlebnis.</p>
       <h3>das erwartet dich bei der Pizza Salame Piccante</h3>
         <p>Tomatensauce, Mozzarella, scharfe Salami, Peperoni (Chili)</p>
-        <a><button class="button-dark mt-3 bestell-button">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button></a>
+        <button class="button-dark mt-3 bestell-button">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button>
       </div>
       <div class="tab-infos col-md-12">
         <div class="tab">
