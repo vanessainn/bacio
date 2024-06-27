@@ -31,7 +31,7 @@
                 <p>Unsere Vision ist es, die Erlebnisse und Erkenntnisse unserer Forschungsreisen wie einen Kuss („bacio“) zu Ihnen nach Hause zu bringen. Erlebnisse sollen geteilt und neue mit Pizza Bacio geschaffen werden.</p>
                 <p>Erleben Sie den unvergleichlichen Geschmack und die Qualität von Pizza Bacio – authentisch, knusprig und mit viel Liebe gemacht. Buon Appetito!</p>
               </div>
-              <button class="more-btn" onclick="toggleText()"><span class="more-text">leggi di più</span><br><i class="pt-1 fa-solid fa-plus more-icon"></i></button>
+              <button class="more-btn" onclick="toggleText()"><span class="more-text fg-dark">leggi di più</span><br><i class="fg-dark pt-1 fa-solid fa-plus more-icon"></i></button>
             </div>
         </div>
       </div>
