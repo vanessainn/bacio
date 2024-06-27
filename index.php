@@ -45,7 +45,7 @@
 
     <div class="header-content">
       <h1 class="headline-home">Ein Kuss aus dem Ofen.</h1>
-      <a href=""><button class="button-light">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button></a>
+      <a href="pizza.php"><button class="button-light">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button></a>
     </div>
     <div class="header-icon bounce-top">
       <p class="more-light">scopri di più</p>
@@ -95,7 +95,7 @@
               </div>
             </div>
           
-            <a data-aos="fade-up" data-aos-duration="1000" href=""><button class="button-dark">erfahre mehr über uns <i class="fa-solid fa-angle-right"></i></button></a>
+            <a data-aos="fade-up" data-aos-duration="1000" href="ueberuns.php"><button class="button-dark">erfahre mehr über uns <i class="fa-solid fa-angle-right"></i></button></a>
           </div>
         </div>
       </div>
