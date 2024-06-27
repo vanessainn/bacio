@@ -841,7 +841,7 @@ a:-webkit-any-link:focus-visible {
 /* Danke & Error */
 
 #danke {
-  margin-top: 15rem;
+  margin-top: 10rem;
 }
 
 .grazie {
@@ -852,11 +852,12 @@ a:-webkit-any-link:focus-visible {
   position: absolute;
   height: 6rem;
   width: auto;
-  right: 19rem;
+  right: 17rem;
+  top: 5rem;
 }
 
 #error {
-  margin-top: 12rem;
+  margin-top: 8rem;
 }
 
 #error h1 {
