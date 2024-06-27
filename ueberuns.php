@@ -64,13 +64,11 @@
                     </div>
                     <div class="col-md-6 pizza-content bg-dark fg-white d-flex flex-column justify-content-center text-center p-3">
                       <h2>Pisa</h2>
-                      <p>Auf ihrer Reise durch Italien machten Andreas und Armando Halt in der wunderschönen Stadt Pisa. Begeistert von der reichen Geschichte und den malerischen Straßen, ließen sie sich von den lokalen Köstlichkeiten inspirieren. </p>
+                      <p>Auf ihrer Reise durch Italien machten Andreas und Armando Halt in der  Stadt Pisa. Begeistert von der reichen Geschichte und den malerischen Straßen, ließen sie sich von den lokalen Köstlichkeiten inspirieren. </p>
                       
                       <div class="moretext">
                         <div class="additional-text">
-                          <p>An einem sonnigen Nachmittag entdeckten sie eine kleine, familiengeführte Pizzeria, die bekannt für ihre traditionelle Zubereitungsmethode war.</p>
-                          <p>Der Pizzabäcker, ein älterer Herr namens Giuseppe, begrüßte sie herzlich und bot ihnen einen Platz in der Küche an, um die Zubereitung seiner berühmten Pizza Margherita zu beobachten. Sie verbrachten den ganzen Tag in der Pizzeria, tauschten Rezepte und Geschichten aus und lernten die Geheimnisse der perfekten Pizza kennen.</p>
-                          <p>Diese Erfahrung prägte ihre Vision für Pizza Bacio. Die Leidenschaft und das handwerkliche Können, die sie in Pisa erlebten, fließen in jede ihrer Pizzen ein. So bringen sie ein Stück Italien direkt zu Ihnen nach Hause.</p>
+                          <p>In Pisa beobachteten sie die Zubereitung der berühmten Pizza Salame. Sie verbrachten den ganzen Tag in der Pizzeria, tauschten Rezepte und Geschichten aus und lernten die Geheimnisse der perfekten Pizza kennen. Die Leidenschaft und das handwerkliche Können, die sie in Pisa erlebten, fließen in jede ihrer Pizzen ein. So bringen sie ein Stück Italien direkt zu Ihnen nach Hause.</p>
                         </div>
                         <button class="more-btn fg-primary"><span class="more-text">leggi di più</span><br><i class="fg-primary fa-solid fa-plus more-icon pt-1"></i></button>
                       </div>
@@ -98,8 +96,7 @@
                       <p>Während ihrer Reise durch Italien verbrachten Andreas und Armando einige Tage in der Ewigen Stadt Rom. In einem belebten Viertel entdeckten sie eine traditionelle Trattoria, die für ihre köstliche Pizza  bekannt war.</p>
                       <div class="moretext">
                         <div class="additional-text">
-                          <p>Der erfahrene Pizzaiolo Luigi begrüßte sie herzlich und zeigte ihnen, wie man den Teig perfekt aufgehen lässt und ihn mit den besten lokalen Zutaten belegt. Sie verbrachten Stunden damit, von Luigi zu lernen und die Feinheiten der römischen Pizzakunst zu verstehen.</p>
-                          <p>Am Abend, mit Blick auf das majestätische Kolosseum, genossen sie eine frisch gebackene Pizza, die so authentisch schmeckte wie frisch vom Italiener. Diese unvergessliche Erfahrung inspirierte sie, mit Pizza Bacio ein Stück Rom in jede ihrer Pizzen zu bringen und die Leidenschaft und Handwerkskunst der römischen Küche zu teilen.</p>
+                          <p>Der erfahrene Pizzaiolo Luigi begrüßte sie herzlich und zeigte ihnen, wie man den Teig perfekt aufgehen lässt und ihn mit den besten lokalen Zutaten belegt. Sie verbrachten Stunden damit, von Luigi zu lernen und die Feinheiten der römischen Pizzakunst zu verstehen. Am Abend, mit Blick auf das majestätische Kolosseum, genossen sie eine frisch gebackene Pizza, die so authentisch schmeckte wie frisch vom Italiener.</p>
                         </div>
                         <button class="more-btn fg-primary" onclick="toggleText()"><span class="more-text">leggi di più</span><br><i class="fg-primary fa-solid fa-plus more-icon pt-1"></i></button>
                       </div>
@@ -123,11 +120,10 @@
                     </div>
                     <div class="col-md-6 pizza-content bg-dark fg-white d-flex flex-column justify-content-center text-center p-3">
                       <h2>Napoli</h2>
-                      <p>Während ihrer Reise durch Italien war ein Stopp in Neapel für Andreas und Armando ein Muss. In der Heimat der Pizza fanden sie eine traditionsreiche Pizzeria, geführt von dem leidenschaftlichen Pizzaiolo Luigi.</p>
+                      <p>Während ihrer Reise durch Italien war ein Stopp in Neapel ein Muss. In der Heimat der Pizza fanden sie eine traditionsreiche Pizzeria, geführt von dem leidenschaftlichen Pizzaiolo Luigi.</p>
                       <div class="moretext">
                         <div class="additional-text">
-                          <p>Die Pizzeria war stets voll und der Duft frisch gebackener Pizza erfüllte die Luft. Luigi zeigte ihnen, wie man den Teig perfekt knetet und die Pizza im Holzofen backt, um die charakteristische neapolitanische Kruste zu erreichen. Andreas und Armando waren fasziniert von der Einfachheit und Perfektion der neapolitanischen Pizza.</p>
-                          <p>Am Abend, mit Blick auf den Vesuv und den Golf von Neapel, genossen sie eine Pizza, die so authentisch und köstlich war, dass sie sofort inspiriert wurden. Die Kombination aus der lebendigen Stadt und der hervorragenden Pizza machte diesen Moment unvergesslich. Diese Erfahrung veranlasste sie, mit Pizza Bacio die traditionelle neapolitanische Pizza in jede ihrer Kreationen zu bringen und den authentischen Geschmack von Neapel zu bewahren.</p>
+                          <p>Luigi zeigte ihnen, wie man den Teig perfekt knetet und die Pizza im Holzofen backt, um die charakteristische neapolitanische Kruste zu erreichen. Andreas und Armando waren fasziniert von der Perfektion der Pizza. Die Kombination aus der lebendigen Stadt und der hervorragenden Pizza machten diesen Tag unvergesslich. Dies veranlasste sie, mit Pizza Bacio den authentischen Geschmack von Neapel zu bewahren.</p>
                         </div>
                         <button class="more-btn fg-primary" onclick="toggleText()"><span class="more-text">leggi di più</span><br><i class="fg-primary fa-solid fa-plus more-icon pt-1"></i></button>
                       </div>
@@ -151,7 +147,7 @@
                     </div>
                     <div class="col-md-6 pizza-content bg-dark fg-white d-flex flex-column justify-content-center text-center p-3">
                       <h2>Tropea</h2>
-                      <p>Auf ihrer Reise durch Italien führte der Weg Andreas und Armando in das malerische Küstenstädtchen Tropea in Kalabrien. Dort entdeckten sie eine charmante Pizzeria mit Blick auf das tiefblaue Meer, geführt von dem freundlichen Pizzaiolo Giuseppe.</p>
+                      <p>Ein weiterer Stop war das malerische Küstenstädtchen Tropea in Kalabrien. Dort entdeckten sie eine charmante Pizzeria mit Blick auf das tiefblaue Meer, geführt von dem freundlichen Pizzaiolo Giuseppe.</p>
                       <div class="moretext">
                         <div class="additional-text">
                           <p>Der zeigte ihnen, wie man den Teig mit einer Prise Meersalz verfeinert und mit frischen Zutaten wie roten Zwiebeln aus Tropea und scharfem 'Nduja belegt. Am Abend, während sie den Sonnenuntergang über dem Tyrrhenischen Meer genossen, teilten sie eine Pizza, die die Aromen der Region perfekt einfing. Diese besondere Erfahrung inspirierte sie, mit Pizza Bacio die Essenz Tropeas in ihrer Pizzen zu bringen.</p>
@@ -178,11 +174,10 @@
                     </div>
                     <div class="col-md-6 pizza-content bg-dark fg-white d-flex flex-column justify-content-center text-center p-3">
                       <h2>Palermo</h2>
-                      <p>Während ihrer Reise durch Italien führte der Weg Andreas und Armando nach Palermo, die pulsierende Hauptstadt Siziliens. Dort entdeckten sie eine versteckte Pizzeria im Herzen der Altstadt, geführt von der leidenschaftlichen Pizzaiola Maria.</p>
+                      <p>Der Weg führte Andreas und Armando nach Palermo, die pulsierende Hauptstadt Siziliens. Dort entdeckten sie eine versteckte Pizzeria im Herzen der Altstadt, geführt von der leidenschaftlichen Pizzaiola Maria.</p>
                       <div class="moretext">
                         <div class="additional-text">
-                          <p>Sie zeigte ihnen, wie man den Teig traditionell per Hand ausrollt und mit sizilianischen Spezialitäten belegt. Die Pizzeria war klein, aber der Duft, der aus dem Holzofen strömte, war unwiderstehlich. Andreas und Armando verbrachten den Tag damit, die verschiedenen Zutaten zu probieren und Marias Technik zu erlernen.</p>
-                          <p>Am Abend, mit Blick auf das historische Teatro Massimo, genossen sie eine Pizza, deren Aromen und Knusprigkeit sie sofort begeisterten. Die Atmosphäre der Stadt, kombiniert mit der köstlichen Pizza, hinterließ einen bleibenden Eindruck bei ihnen. Diese Erfahrung inspirierte sie, mit Pizza Bacio die intensiven Aromen und die Herzlichkeit Palermos in jede ihrer Pizzen zu bringen. Seitdem vereinen sie die sizilianische Tradition in jeder Pizza von Pizza Bacio, um Ihnen ein Stück Sizilien nach Hause zu bringen.</p>
+                          <p>Sie zeigte ihnen, wie man den Teig traditionell per Hand ausrollt. Andreas und Armando verbrachten den Tag damit, die verschiedenen Zutaten zu probieren und Marias Technik zu erlernen. Am Abend, mit Blick auf das historische Teatro Massimo, genossen sie eine Pizza, deren Aromen und Knusprigkeit sie sofort begeisterten. Die Atmosphäre der Stadt, kombiniert mit der köstlichen Pizza, hinterließ einen bleibenden Eindruck bei ihnen.</p>
                         </div>
                         <button class="more-btn fg-primary" onclick="toggleText()"><span class="more-text">leggi di più</span><br><i class="fg-primary fa-solid fa-plus more-icon pt-1"></i></button>
                       </div>
@@ -206,11 +201,10 @@
                     </div>
                     <div class="col-md-6 pizza-content bg-dark fg-white d-flex flex-column justify-content-center text-center p-3">
                       <h2>Alberobello</h2>
-                      <p>Während ihrer Reise durch Italien besuchten Andreas und Armando das bezaubernde Dorf Alberobello, bekannt für seine einzigartigen Trulli-Häuser. Inmitten dieser malerischen Kulisse entdeckten sie eine kleine, traditionelle Pizzeria, die von der Familie Rossi betrieben wurde.</p>
+                      <p>Auch ein Stop war das bezaubernde Dorf Alberobello, bekannt für seine einzigartigen Trulli-Häuser. Inmitten dieser malerischen Kulisse entdeckten sie eine kleine, traditionelle Pizzeria.</p>
                       <div class="moretext">
                         <div class="additional-text">
-                          <p>Der erfahrene Pizzabäcker Marco Rossi nahm sich die Zeit, ihnen die Kunst der Zubereitung einer perfekten Pizza mit den frischesten lokalen Zutaten zu zeigen.</p>
-                          <p>Andreas und Armando verbrachten den Tag damit, den Teig zu kneten, die besten Tomaten und den frischesten Mozzarella auszuwählen und die Pizza in einem alten Steinofen zu backen. Am Abend, unter dem sternenklaren Himmel von Alberobello, genossen sie eine Pizza, die so knusprig und aromatisch war wie keine andere. Diese besondere Erfahrung inspirierte sie, mit Pizza Bacio ein Stück Alberobello in jede ihrer Pizzen zu bringen und die Authentizität und Tradition der apulischen Küche zu teilen. Seitdem spiegelt jede Pizza von Pizza Bacio die Aromen und das Handwerk dieser zauberhaften Region wider.</p>
+                          <p>Der erfahrene Pizzabäcker Marco Rossi nahm sich die Zeit, ihnen die Kunst der Zubereitung einer perfekten Pizza mit den frischesten lokalen Zutaten zu zeigen. Andreas und Armando verbrachten den Tag damit, den Teig zu kneten, die besten Tomaten und den frischesten Mozzarella auszuwählen und die Pizza in einem alten Steinofen zu backen.</p>
                         </div>
                         <button class="more-btn fg-primary" onclick="toggleText()"><span class="more-text">leggi di più</span><br><i class="fg-primary fa-solid fa-plus more-icon pt-1"></i></button>
                       </div>
@@ -234,7 +228,7 @@
                     </div>
                     <div class="col-md-6 pizza-content bg-dark fg-white d-flex flex-column justify-content-center text-center p-3">
                       <h2>Venezia</h2>
-                      <p>Auf ihrer Reise durch Italien machten Andreas und Armando Halt in der romantischen Stadt Venedig. In einer kleinen, versteckten Pizzeria am Kanal fanden sie den erfahrenen Pizzaiolo Carlo, der sie in die Geheimnisse der venezianischen Pizza einweihte.</p>
+                      <p>Die machten auch Halt in der romantischen Stadt Venedig. In einer kleinen, versteckten Pizzeria am Kanal fanden sie den erfahrenen Pizzaiolo Carlo, der sie in die Geheimnisse der venezianischen Pizza einweihte.</p>
                       <div class="moretext">
                         <div class="additional-text">
                           <p>Sie lernten, den Teig hauchdünn zu rollen und mit frischen Kräutern zu belegen. Am Abend, während sie in einer Gondel über die Kanäle glitten und die beleuchtete Rialtobrücke bewunderten, genossen sie eine köstliche Pizza, die nach Tradition schmeckte. Diese magische Erfahrung inspirierte sie, mit Pizza Bacio die Einzigartigkeit und den Zauber Venedigs in jede Pizza zu bringen.</p>
@@ -261,11 +255,10 @@
                     </div>
                     <div class="col-md-6 pizza-content bg-dark fg-white d-flex flex-column justify-content-center text-center p-3">
                       <h2>Lago di Garda</h2>
-                      <p>Auf ihrer kulinarischen Entdeckungsreise durch Italien machten Andreas und Armando Halt am wunderschönen Lago di Garda. In einem kleinen, idyllischen Dorf am Seeufer fanden sie eine Pizzeria, geführt von dem herzlichen Pizzaiolo Antonio.</p>
+                      <p>Als leztes machten sie Halt am wunderschönen Lago di Garda. In einem kleinen, idyllischen Dorf am Seeufer fanden sie eine Pizzeria, geführt von dem herzlichen Pizzaiolo Antonio.</p>
                       <div class="moretext">
                         <div class="additional-text">
-                          <p>Die Pizzeria lag direkt am Wasser, umgeben von Olivenhainen und Weinbergen. Antonio zeigte ihnen, wie man den Teig mit lokalem Olivenöl verfeinert und mit frischen Kräutern und regionalem Käse belegt. Sie verbrachten den Tag damit, die Zutaten aus der Umgebung zu erkunden und die Ruhe des Sees zu genießen.</p>
-                          <p>Am Abend, bei Sonnenuntergang und mit Blick auf den funkelnden See, genossen sie eine Pizza, die so frisch und köstlich war wie die Umgebung selbst. Die friedliche Atmosphäre und die Aromen der regionalen Zutaten hinterließen einen bleibenden Eindruck. Diese unvergessliche Erfahrung inspirierte sie, mit Pizza Bacio die Frische und das Aroma des Lago di Garda in jede ihrer Pizzen zu bringen und die Schönheit dieser Region zu teilen.</p>
+                          <p>Die Pizzeria lag direkt am Wasser, umgeben von Olivenhainen und Weinbergen. Antonio zeigte ihnen, wie man den Teig mit lokalem Olivenöl verfeinert und mit frischen Kräutern und regionalem Käse belegt. Die friedliche Atmosphäre und die Aromen der regionalen Zutaten hinterließen einen bleibenden Eindruck.</p>
                         </div>
                         <button class="more-btn fg-primary" onclick="toggleText()"><span class="more-text">leggi di più</span><br><i class="fg-primary fa-solid fa-plus more-icon pt-1"></i></button>
                       </div>
