@@ -21,7 +21,7 @@ buttons.forEach(function(button) {
 
 
 // Mehr lesen Button
-
+/*
 function toggleText() {
     var additionalText = document.querySelector(".additional-text");
     var buttonText = document.querySelector(".more-text");
@@ -40,8 +40,29 @@ function toggleText() {
     }
 }
 
-var more = document.querySelectorAll(".additional-text");
+*/
 
-more.forEach(function(more) {
-  more.addEventListener('click', toggleText);
-})
+const moreElements = document.querySelectorAll('.more-btn');
+
+moreElements.forEach((elm) => {
+    elm.addEventListener('click', () => {
+        
+    const parent = elm.parentNode;
+    const additionalText = parent.querySelector(".additional-text");
+    const buttonText = parent.querySelector(".more-text");
+    const buttonIcon = parent.querySelector(".more-icon");
+
+    if (additionalText.style.display === "none") {
+        additionalText.style.display = "block";
+        buttonText.textContent = "leggi meno";
+        buttonIcon.classList.remove("fa-plus");
+        buttonIcon.classList.add("fa-minus");
+    } else {
+        additionalText.style.display = "none";
+        buttonText.textContent = "leggi di più";
+        buttonIcon.classList.remove("fa-minus");
+        buttonIcon.classList.add("fa-plus");
+    }
+    
+  });
+});
