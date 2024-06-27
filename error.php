@@ -43,7 +43,7 @@
           </div>
         </div>
         <div class="col-md-12 d-flex justify-content-center">
-          <p>&copy; <?php echo date(Y) ?> Pizza Bacio GmbH</p>
+          <p>&copy; <?php echo date("Y"); ?> Pizza Bacio GmbH</p>
         </div>
       </div>
     </div>

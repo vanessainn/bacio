@@ -284,8 +284,6 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>
-<script src="js/basic.js"></script>
-<script src="js/drei.js"></script>
   
 </body>
 </html>
