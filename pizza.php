@@ -25,8 +25,8 @@
             <h2>Pizza Margherita</h2>
             <p>Tomatensauce, Mozzarella, frisches Basilikum</p>
             <div>
-              <a><button class="button-primary mt-3 bestell-button me-4">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button></a>
-              <a><button id="margherita" class="button-white mt-3">mehr erfahren <i class="fa-solid fa-angle-right"></i></button></a>
+              <button class="button-primary mt-3 bestell-button me-4">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button>
+              <button id="margherita" class="button-white mt-3">mehr erfahren <i class="fa-solid fa-angle-right"></i></button>
             </div>
           </div>
         </div>
@@ -36,8 +36,8 @@
             <h2>Pizza Spinaci e Ricotta</h2>
             <p>Tomatensauce, Mozzarella, Spinat, Ricotta-Käse</p>
             <div>
-              <a><button class="button-primary mt-3 bestell-button me-4">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button></a>
-              <a><button id="spinaci-ricotta" class="button-dark mt-3">mehr erfahren <i class="fa-solid fa-angle-right"></i></button></a>
+              <button class="button-primary mt-3 bestell-button me-4">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button>
+              <button id="spinaci-ricotta" class="button-dark mt-3">mehr erfahren <i class="fa-solid fa-angle-right"></i></button>
             </div>
           </div>
           <div class="col-md-6">
@@ -52,8 +52,8 @@
             <h2>Pizza Prosciutto e Funghi</h2>
             <p>Tomatensauce, Mozzarella, Schinken, Champignons</p>
             <div>
-              <a><button class="button-primary mt-3 bestell-button me-4">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button></a>
-              <a><button id="prosciutto-funghi" class="button-dark mt-3">mehr erfahren <i class="fa-solid fa-angle-right"></i></button></a>
+              <button class="button-primary mt-3 bestell-button me-4">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button>
+              <button id="prosciutto-funghi" class="button-dark mt-3">mehr erfahren <i class="fa-solid fa-angle-right"></i></button>
             </div>
           </div>
         </div>
@@ -62,8 +62,8 @@
             <h2>Pizza Salame</h2>
             <p>Tomatensauce, Mozzarella, Salami</p>
             <div>
-              <a><button class="button-primary mt-3 bestell-button me-4">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button></a>
-              <a><button id="salame" class="button-white mt-3">mehr erfahren <i class="fa-solid fa-angle-right"></i></button></a>
+              <button class="button-primary mt-3 bestell-button me-4">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button>
+              <button id="salame" class="button-white mt-3">mehr erfahren <i class="fa-solid fa-angle-right"></i></button>
             </div>
           </div>
           <div class="col-md-6">
@@ -79,8 +79,8 @@
             <h2>Pizza Quattro Formaggi</h2>
             <p>Tomatensauce, Mozzarella, Bergkäse,<br>Cheddar und Blauschimmelkäse</p>
             <div>
-              <a><button class="button-primary mt-3 bestell-button me-4">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button></a>
-              <a><button id="quattro-formaggi" class="button-dark mt-3">mehr erfahren <i class="fa-solid fa-angle-right"></i></button></a>
+              <button class="button-primary mt-3 bestell-button me-4">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button>
+              <button id="quattro-formaggi" class="button-dark mt-3">mehr erfahren <i class="fa-solid fa-angle-right"></i></button>
             </div>
           </div>
         </div>
@@ -89,8 +89,8 @@
             <h2>Pizza Prosciutto e Ananas</h2>
             <p>Tomatensauce, Mozzarella, Schinken, Ananas</p>
             <div>
-              <a><button class="button-primary mt-3 bestell-button me-4">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button></a>
-              <a><button id="prosciutto-ananas" class="button-dark mt-3">mehr erfahren <i class="fa-solid fa-angle-right"></i></button></a>
+              <button class="button-primary mt-3 bestell-button me-4">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button>
+              <button id="prosciutto-ananas" class="button-dark mt-3">mehr erfahren <i class="fa-solid fa-angle-right"></i></button>
             </div>
           </div>
           <div class="col-md-6">
@@ -105,8 +105,8 @@
             <h2>Pizza Tonno e Cipolla</h2>
             <p>Tomatensauce, Mozzarella, Thunfisch, rote Zwiebeln</p>
             <div>
-              <a><button class="button-primary mt-3 bestell-button me-4">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button></a>
-              <a><button id="tonno-cipolla" class="button-white mt-3">mehr erfahren <i class="fa-solid fa-angle-right"></i></button></a>
+              <button class="button-primary mt-3 bestell-button me-4">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button>
+              <button id="tonno-cipolla" class="button-white mt-3">mehr erfahren <i class="fa-solid fa-angle-right"></i></button>
             </div>
           </div>
         </div>
@@ -115,8 +115,8 @@
             <h2>Pizza Salame Piccante</h2>
             <p>Tomatensauce, Mozzarella, scharfe Salami</p>
             <div>
-              <a><button class="button-primary mt-3 bestell-button me-4">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button></a>
-              <a><button id="salame-piccante" class="button-dark mt-3">mehr erfahren <i class="fa-solid fa-angle-right"></i></button></a>
+              <button class="button-primary mt-3 bestell-button me-4">jetzt bestellen <i class="fa-solid fa-angle-right"></i></button>
+              <button id="salame-piccante" class="button-dark mt-3">mehr erfahren <i class="fa-solid fa-angle-right"></i></button>
             </div>
           </div>
           <div class="col-md-6">
