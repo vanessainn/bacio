@@ -4,7 +4,7 @@
   <meta property="og:description" content="Pizza Bacio ist die erste Tiefkühlpizza, die so authentisch schmeckt, wie frisch vom Italiener. Überzeug dich jetzt selbst!">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://vanessa.startmedia.at">
-  <meta property="og:image" content="https://vanessa.startmedia.at/images/bacio-einkussausdemofen.png">
+  <meta property="og:image" content="https://vanessa.startmedia.at/images/bacio-einkussausdemofen.jpg">
   <meta property="og:site_name" content="Bacio">
   <meta property="og:locale" content="de_DE">
 <link rel="stylesheet" href="css/bootstrap.min.css">
